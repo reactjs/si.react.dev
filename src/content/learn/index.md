@@ -1,29 +1,29 @@
 ---
-title: Quick Start
+title: ඉක්මන් ආරම්භය
 ---
 
 <Intro>
 
-Welcome to the React documentation! This page will give you an introduction to the 80% of React concepts that you will use on a daily basis.
+React ලියකියවිලි වෙත සාදරයෙන් පිළිගනිමු! මෙම පිටුව මඟින් ඔබ දිනපතා භාවිතා කරන React සංකල්පවලින් 80% ක් පිළිබඳ හැඳින්වීමක් ලබා දෙනු ඇත.
 
 </Intro>
 
 <YouWillLearn>
 
-- How to create and nest components
-- How to add markup and styles
-- How to display data
-- How to render conditions and lists
-- How to respond to events and update the screen
-- How to share data between components
+- components සෑදීම සහ වෙනත් components සමග අන්තර්ගත කරන්නේ කෙසේ​ද
+- සලකුණු සහ මෝස්තර එකතු කරන්නේ කෙසේද
+- දත්ත පෙන්වන්නේ කෙසේද
+- කොන්දේසි සහ ලැයිස්තු විදහාපාන්නේ කෙසේද
+- සිදුවීම් වලට ප්‍රතිචාර දක්වන්නේ කෙසේද සහ තිරය යාවත්කාලීන කරන්නේ කෙසේද
+- components අතර දත්ත බෙදා ගන්නේ කෙසේද
 
 </YouWillLearn>
 
 ## Creating and nesting components {/*components*/}
 
-React apps are made out of *components*. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.
+React යෙදුම් *components* වලින් සාදා ඇත. components  යනු පරිශීලක අතුරුමුහුනත් කොටසක් වන අතර එයටම ආවේනික වූ නියමයක් සහ පෙනුමක් ඇත . component එක​ක් බොත්තමක් වැනි කුඩාදෙයක් හෝ සම්පූර්ණ පිටුවක් වැනි විශාල දෙයක්ද විය හැකිය.
 
-React components are JavaScript functions that return markup:
+React components යනු markup ලබාදෙ​න Javascript functions ​වේ
 
 ```js
 function MyButton() {
@@ -33,7 +33,7 @@ function MyButton() {
 }
 ```
 
-Now that you've declared `MyButton`, you can nest it into another component:
+දැන් ඔබ 'MyButton' සා​දා ඇති බැවින්, ඔබට එය වෙනත් component එකක​ට අන්තර්ගත ක​ල හැක:
 
 ```js {5}
 export default function MyApp() {
@@ -46,9 +46,9 @@ export default function MyApp() {
 }
 ```
 
-Notice that `<MyButton />` starts with a capital letter. That's how you know it's a React component. React component names must always start with a capital letter, while HTML tags must be lowercase.
+`<MyButton />` ආරම්භ වන්නේ ලොකු අකුරකින් බව සලකන්න. එය React component එකක් බව ඔබ දන්නේ එලෙසයි. React component එකක් සෑම විටම ලොකු අකුරකින් ආරම්භ විය යුතු අතර HTML ටැග් කුඩා අකුරු විය යුතුය.
 
-Have a look at the result:
+මේ ප්‍රතිපලය දෙස බලන්​න:
 
 <Sandpack>
 
