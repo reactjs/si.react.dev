@@ -157,8 +157,8 @@ export function HomeContent() {
           <Center>
             <Header>සංරචක වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
             <Para>
-              ප්‍රතික්‍රියා ඔබට තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි
-               සංරචක ලෙස හැඳින්වේ. {' '} වැනි ඔබේම ප්‍රතික්‍රියා සංරචක සාදන්න
+              React ඔබට තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි
+               සංරචක ලෙස හැඳින්වේ. {' '} වැනි ඔබේම React සංරචක සාදන්න
               <Code>Thumbnail</Code>, <Code>LikeButton</Code>, and{' '}
               <Code>Video</Code>. ඉන්පසු ඒවා සම්පූර්ණ තිර, පිටු සහ යෙදුම්වලට ඒකාබද්ධ කරන්න.
             </Para>
@@ -169,7 +169,7 @@ export function HomeContent() {
           <Center>
             <Para>
               ඔබ තනිවම හෝ වෙනත් දහස් ගණනක් සමඟ වැඩ කළත්
-              සංවර්ධකයින්, ප්‍රතික්‍රියා භාවිතා කිරීම එලෙසම දැනේ. එය ඔබට ඉඩ දීමට සැලසුම් කර ඇත
+              සංවර්ධකයින්, React භාවිතා කිරීම එලෙසම දැනේ. එය ඔබට ඉඩ දීමට සැලසුම් කර ඇත
               ස්වාධීන පුද්ගලයන් විසින් ලියන ලද සංරචක බාධාවකින් තොරව ඒකාබද්ධ කරන්න,
               කණ්ඩායම්, සහ සංවිධාන.
             </Para>
@@ -180,7 +180,7 @@ export function HomeContent() {
           <Center>
             <Header>කේතය සහ සලකුණු සමඟ සංරචක ලියන්න</Header>
             <Para>
-              ප්‍රතික්‍රියා සංරචක JavaScript ශ්‍රිත වේ. යම් අන්තර්ගතයක් කොන්දේසි
+              React සංරචක JavaScript ශ්‍රිත වේ. යම් අන්තර්ගතයක් කොන්දේසි
               සහිතව පෙන්වීමට අවශ්‍යද? <Code>if</Code> ප්‍රකාශයක් භාවිතා කරන්න.
               ලැයිස්තුවක් පෙන්වනවාද? array <Code>map()</Code> උත්සාහ කරන්න.
               React ඉගෙනීම යනු ක්‍රමලේඛනය ඉගෙනීමයි.
@@ -194,7 +194,7 @@ export function HomeContent() {
               මෙම සලකුණු වාක්‍ය ඛණ්ඩය JSX ලෙස හැඳින්වේ.
               එය React මගින් ප්‍රචලිත කරන ලද JavaScript සින්ටැක්ස් දිගුවකි.
               JSX සලකුණු කිරීම අදාළ විදැහුම් තර්කයට ආසන්නව තැබීමෙන්
-              ප්‍රතික්‍රියා සංරචක සෑදීම, නඩත්තු කිරීම සහ මකා දැමීම පහසු කරයි.
+              React සංරචක සෑදීම, නඩත්තු කිරීම සහ මකා දැමීම පහසු කරයි.
             </Para>
           </Center>
         </Section>
@@ -203,10 +203,10 @@ export function HomeContent() {
           <Center>
             <Header>ඔබට අවශ්‍ය ඕනෑම තැනක අන්තර්ක්‍රියාකාරීත්වය එක් කරන්න</Header>
             <Para>
-              ප්‍රතික්‍රියා සංරචක දත්ත ලබා ගන්නා අතර තිරයේ දිස්විය යුතු දේ
+              React සංරචක දත්ත ලබා ගන්නා අතර තිරයේ දිස්විය යුතු දේ
               ආපසු ලබා දෙයි. පරිශීලකයා ආදානයකට ටයිප් කරන විට වැනි
               අන්තර්ක්‍රියාවකට ප්‍රතිචාර වශයෙන් ඔබට ඔවුන්ට නව දත්ත ලබා දිය හැක.
-              ප්‍රතික්‍රියා පසුව නව දත්තවලට ගැළපෙන පරිදි තිරය යාවත්කාලීන කරනු ඇත.
+              React පසුව නව දත්තවලට ගැළපෙන පරිදි තිරය යාවත්කාලීන කරනු ඇත.
             </Para>
           </Center>
           <FullBleed>
@@ -214,9 +214,9 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              ඔබට ඔබේ මුළු පිටුවම ප්‍රතික්‍රියා තුළ ගොඩනගා ගැනීමට අවශ්‍ය නැත.
-              ඔබගේ පවතින HTML පිටුවට ප්‍රතික්‍රියා එක් කරන්න, 
-              සහ එහි ඕනෑම තැනක අන්තර්ක්‍රියාකාරී ප්‍රතික්‍රියා සංරචක ලබා දෙන්න.
+              ඔබට ඔබේ මුළු පිටුවම React තුළ ගොඩනගා ගැනීමට අවශ්‍ය නැත.
+              ඔබගේ පවතින HTML පිටුවට React එක් කරන්න, 
+              සහ එහි ඕනෑම තැනක අන්තර්ක්‍රියාකාරී React සංරචක ලබා දෙන්න.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
@@ -238,9 +238,9 @@ export function HomeContent() {
             <Para>
               React යනු පුස්තකාලයකි. එය ඔබට සංරචක එකට තැබීමට ඉඩ සලසයි, නමුත්
               එය මාර්ගගත කිරීම සහ දත්ත ලබා ගැනීම සිදු කරන ආකාරය නියම නොකරයි.
-               React සමඟ සම්පූර්ණ යෙදුමක් තැනීමට, අපි නිර්දේශ කරන්නේ, 
-               <Link href="https://nextjs.org">Next.js</Link> හෝ{' '}
-               <Link href="https: //remix.run">Remix</Link> වැනි full-stack React framework වේ.
+              React සමඟ සම්පූර්ණ යෙදුමක් තැනීමට, අපි නිර්දේශ කරන්නේ, 
+              <Link href="https://nextjs.org">Next.js</Link> හෝ{' '}
+              <Link href="https: //remix.run">Remix</Link> වැනි full-stack React framework වේ.
             </Para>
           </Center>
           <FullBleed>
@@ -248,17 +248,17 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              React is also an architecture. Frameworks that implement it let
-              you fetch data in asynchronous components that run on the server
-              or even during the build. Read data from a file or a database, and
-              pass it down to your interactive components.
+              React ද වාස්තු විද්‍යාවකි. එය ක්‍රියාත්මක කරන රාමු මඟින් සේවාදායකයේ හෝ
+              ගොඩනැගීමේදී පවා ක්‍රියාත්මක වන අසමමුහුර්ත සංරචකවල දත්ත ලබා ගැනීමට
+              ඔබට ඉඩ සලසයි. ගොනුවකින් හෝ දත්ත සමුදායකින් දත්ත කියවා එය ඔබගේ
+              අන්තර්ක්‍රියාකාරී සංරචක වෙත ලබා දෙන්න.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
                 color="gray"
                 icon="framework"
                 href="/learn/start-a-new-react-project">
-                Get started with a framework
+                රාමුවක් සමඟ ආරම්භ කරන්න
               </CTA>
             </div>
           </Center>
@@ -266,12 +266,12 @@ export function HomeContent() {
         <Section background="left-card">
           <div className="mx-auto flex flex-col w-full">
             <div className="mx-auto max-w-4xl lg:text-center items-center px-5 flex flex-col">
-              <Header>Use the best from every platform</Header>
+              <Header>සෑම වේදිකාවකින්ම හොඳම දේ භාවිතා කරන්න</Header>
               <Para>
-                People love web and native apps for different reasons. React
-                lets you build both web apps and native apps using the same
-                skills. It leans upon each platform’s unique strengths to let
-                your interfaces feel just right on every platform.
+                විවිධ හේතු නිසා මිනිසුන් වෙබ් සහ ස්වදේශීය යෙදුම් වලට ප්‍රිය කරයි. React
+                ඔබට එකම කුසලතා භාවිතා කරමින් වෙබ් යෙදුම් සහ ස්වදේශීය යෙදුම් දෙකම
+                ගොඩනැගීමට ඉඩ දෙයි. එය ඔබගේ අතුරුමුහුණත් සෑම වේදිකාවකම හරියටම
+                දැනෙන්නට ඉඩ සලසා දීම සඳහා එක් එක් වේදිකාවේ අද්විතීය ශක්තීන් මත රඳා පවතී.
               </Para>
             </div>
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row mt-16 mb-20 lg:mb-28 px-5 gap-20 lg:gap-5">
@@ -285,15 +285,15 @@ export function HomeContent() {
                     <div className="bg-wash relative h-14 w-full" />
                     <div className="relative flex items-start justify-center flex-col flex-1 pb-16 pt-5 gap-3 px-5 lg:px-10 lg:pt-8">
                       <h4 className="leading-tight text-primary font-semibold text-3xl lg:text-4xl">
-                        Stay true to the web
+                        වෙබයට සත්‍යව සිටින්න
                       </h4>
                       <p className="lg:text-xl leading-normal text-secondary">
-                        People expect web app pages to load fast. On the server,
-                        React lets you start streaming HTML while you’re still
-                        fetching data, progressively filling in the remaining
-                        content before any JavaScript code loads. On the client,
-                        React can use standard web APIs to keep your UI
-                        responsive even in the middle of rendering.
+                        වෙබ් යෙදුම් පිටු වේගයෙන් පූරණය වනු ඇතැයි ජනතාව අපේක්ෂා කරති.
+                        සේවාදායකයේ, React ඔබ තවමත් දත්ත ලබා ගනිමින් සිටින අතරතුර HTML
+                        ප්‍රවාහය ආරම්භ කිරීමට ඉඩ සලසයි, ඕනෑම JavaScript කේතයක් පූරණය
+                        වීමට පෙර ඉතිරි අන්තර්ගතය ක්‍රමානුකූලව පුරවයි. සේවාලාභියා මත,
+                        විදැහුම්කරණය මධ්‍යයේ පවා ඔබේ UI ප්‍රතිචාරාත්මකව තබා ගැනීමට React
+                        හට සම්මත වෙබ් API භාවිත කළ හැක.
                       </p>
                     </div>
                   </div>
@@ -371,21 +371,21 @@ export function HomeContent() {
                       </div>
                       <div className="flex flex-col items-start justify-center pt-0 gap-3 px-2.5 lg:pt-8 lg:px-8">
                         <h4 className="leading-tight text-primary dark:text-primary-dark font-semibold text-3xl lg:text-4xl">
-                          Go truly native
+                          සැබවින්ම ස්වදේශික වන්න
                         </h4>
                         <p className="h-full lg:text-xl text-secondary dark:text-secondary-dark leading-normal">
-                          People expect native apps to look and feel like their
-                          platform.{' '}
+                          ස්වදේශීය යෙදුම් ඔවුන්ගේ වේදිකාව මෙන් පෙනෙනු ඇතැයි මිනිසුන්
+                          අපේක්ෂා කරයි.{' '}
                           <Link href="https://reactnative.dev">
                             React Native
                           </Link>{' '}
-                          and{' '}
+                          සහ{' '}
                           <Link href="https://github.com/expo/expo">Expo</Link>{' '}
-                          let you build apps in React for Android, iOS, and
-                          more. They look and feel native because their UIs{' '}
-                          <i>are</i> truly native. It’s not a web view—your
-                          React components render real Android and iOS views
-                          provided by the platform.
+                          ඔබට Android, iOS සහ තවත් දේ සඳහා React හි යෙදුම්
+                          තැනීමට ඉඩ දෙන්න. ඔවුන්ගේ UI{' '} සැබවින්ම ස්වදේශික
+                          බැවින් ඔවුන් ස්වදේශික ලෙස පෙනේ. එය වෙබ් දසුනක්
+                          නොවේ—ඔබේ React සංරචක වේදිකාව මඟින් සපයන ලද
+                          සැබෑ Android සහ iOS බැලීම් ලබා දෙයි.
                         </p>
                       </div>
                     </div>
@@ -395,14 +395,14 @@ export function HomeContent() {
             </div>
             <div className="px-5 lg:px-0 max-w-4xl mx-auto lg:text-center text-secondary dark:text-secondary-dark">
               <Para>
-                With React, you can be a web <i>and</i> a native developer. Your
-                team can ship to many platforms without sacrificing the user
-                experience. Your organization can bridge the platform silos, and
-                form teams that own entire features end-to-end.
+                React සමඟින්, ඔබට වෙබ් <i>සහ</i> ස්වදේශීය සංවර්ධකයෙකු විය හැක. පරිශීලක
+                අත්දැකීම කැප නොකර ඔබේ කණ්ඩායමට බොහෝ වේදිකාවලට නැව්ගත කළ හැක.
+                ඔබේ සංවිධානයට වේදිකා සිලෝස් පාලම් කළ හැකි අතර, සම්පූර්ණ අංගයන්
+                අවසානයේ සිට අවසානය දක්වා ඇති කණ්ඩායම් පිහිටුවීමට හැකිය.
               </Para>
               <div className="flex justify-start w-full lg:justify-center">
                 <CTA color="gray" icon="native" href="https://reactnative.dev/">
-                  Build for native platforms
+                  දේශීය වේදිකා සඳහා ගොඩනඟන්න
                 </CTA>
               </div>
             </div>
@@ -413,23 +413,23 @@ export function HomeContent() {
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row px-5">
             <div className="max-w-3xl lg:max-w-7xl gap-5 flex flex-col lg:flex-row lg:px-5">
               <div className="w-full lg:w-6/12 max-w-3xl flex flex-col items-start justify-start lg:pl-5 lg:pr-10">
-                <Header>Upgrade when the future is ready</Header>
+                <Header>අනාගතය සූදානම් වන විට upgrade කරන්න</Header>
                 <Para>
-                  React approaches changes with care. Every React commit is
-                  tested on business-critical surfaces with over a billion
-                  users. Over 100,000 React components at Meta help validate
-                  every migration strategy.
+                  React ප්‍රවේශයන් ප්‍රවේශමෙන් වෙනස් වේ. සෑම React කැපවීමක්ම
+                  බිලියනයකට අධික පරිශීලකයින් සිටින ව්‍යාපාරික-විවේචනාත්මක පෘෂ්ඨයන්
+                  මත පරීක්ෂා කරනු ලැබේ. Meta හි 100,000 කට අධික React සංරචක
+                  සෑම සංක්‍රමණ උපායමාර්ගයක්ම වලංගු කිරීමට උදවු කරයි.
                 </Para>
                 <div className="order-last pt-5">
                   <Para>
-                    The React team is always researching how to improve React.
-                    Some research takes years to pay off. React has a high bar
-                    for taking a research idea into production. Only proven
-                    approaches become a part of React.
+                    React කණ්ඩායම සැමවිටම React වැඩිදියුණු කරන්නේ කෙසේදැයි
+                    පර්යේෂණ කරයි. සමහර පර්යේෂණවල විපාක ලැබීමට වසර ගණනාවක් ගත වේ.
+                    නිෂ්පාදනයට පර්යේෂණ අදහසක් ගැනීම සඳහා React ඉහළ තීරුවක් ඇත.
+                    Reactවේ කොටසක් බවට පත්වන්නේ ඔප්පු කළ ප්‍රවේශයන් පමණි.
                   </Para>
                   <div className="hidden lg:flex justify-start w-full">
                     <CTA color="gray" icon="news" href="/blog">
-                      Read more React news
+                      වැඩිදුර කියවන්න React ප්‍රවෘත්ති
                     </CTA>
                   </div>
                 </div>
@@ -437,7 +437,7 @@ export function HomeContent() {
               <div className="w-full lg:w-6/12">
                 <p className="uppercase tracking-wide font-bold text-sm text-tertiary dark:text-tertiary-dark flex flex-row gap-2 items-center mt-5 lg:-mt-2 w-full">
                   <IconChevron />
-                  Latest React News
+                  නවතම React පුවත්
                 </p>
                 <div className="flex-col sm:flex-row flex-wrap flex gap-5 text-left my-5">
                   <div className="flex-1 min-w-[40%]">
@@ -455,7 +455,7 @@ export function HomeContent() {
                 </div>
                 <div className="flex lg:hidden justify-start w-full">
                   <CTA color="gray" icon="news" href="/blog">
-                    Read more React news
+                    වැඩිදුර කියවන්න React ප්‍රවෘත්ති
                   </CTA>
                 </div>
               </div>
@@ -468,13 +468,13 @@ export function HomeContent() {
             <div className="mx-auto flex flex-col max-w-4xl">
               <Center>
                 <Header>
-                  Join a community <br className="hidden lg:inline" />
-                  of millions
+                  මිලියන ගණනක <br className="hidden lg:inline" />
+                  ප්‍රජාවකට සම්බන්ධ වන්න
                 </Header>
                 <Para>
-                  You’re not alone. Two million developers from all over the
-                  world visit the React docs every month. React is something
-                  that people and teams can agree on.
+                 ඔබ තනිවම නොවේ. ලොව පුරා සිටින සංවර්ධකයින් මිලියන
+                 දෙකක් සෑම මසකම React docs වෙත පැමිණේ. React යනු
+                 පුද්ගලයන්ට සහ කණ්ඩායම්වලට එකඟ විය හැකි දෙයකි.
                 </Para>
               </Center>
             </div>
@@ -482,13 +482,13 @@ export function HomeContent() {
             <div className="mx-auto flex flex-col max-w-4xl">
               <Center>
                 <Para>
-                  This is why React is more than a library, an architecture, or
-                  even an ecosystem. React is a community. It’s a place where
-                  you can ask for help, find opportunities, and meet new
-                  friends. You will meet both developers and designers,
-                  beginners and experts, researchers and artists, teachers and
-                  students. Our backgrounds may be very different, but React
-                  lets us all create user interfaces together.
+                  React යනු පුස්තකාලයකට, ගෘහ නිර්මාණ ශිල්පයකට හෝ පරිසර පද්ධතියකට
+                  වඩා වැඩි යමක් වන්නේ මේ නිසාය. React යනු ප්‍රජාවකි. එය ඔබට උපකාර
+                  ඉල්ලා සිටීමට, අවස්ථා සොයා ගැනීමට සහ නව මිතුරන් හමුවීමට හැකි ස්ථානයකි.
+                  ඔබ සංවර්ධකයින් සහ නිර්මාණකරුවන්, ආරම්භකයින් සහ විශේෂඥයින්,
+                  පර්යේෂකයන් සහ කලාකරුවන්, ගුරුවරුන් සහ සිසුන් යන දෙදෙනාම හමුවනු
+                  ඇත. අපගේ පසුබිම් බොහෝ වෙනස් විය හැක, නමුත් React අප සියල්ලන්ටම එක්ව
+                  පරිශීලක අතුරුමුහුණත් නිර්මාණය කිරීමට ඉඩ සලසයි.
                 </Para>
               </Center>
             </div>
@@ -497,15 +497,15 @@ export function HomeContent() {
           <div className="mt-20 px-5 lg:px-0 mb-6 max-w-4xl text-center text-opacity-80">
             <Logo className="text-link dark:text-link-dark w-24 lg:w-28 mb-10 lg:mb-8 mt-12 h-auto mx-auto self-start" />
             <Header>
-              Welcome to the <br className="" />
-              React community
+              React ප්‍රජාව වෙත <br className="" />
+              සාදරයෙන් පිළිගනිමු
             </Header>
             <ButtonLink
               href={'/learn'}
               type="primary"
               size="lg"
-              label="Take the Tutorial">
-              Get Started
+              label="Tutorial එක ගන්න">
+              ආරම්භ කරන්න
             </ButtonLink>
           </div>
         </Section>
@@ -657,35 +657,35 @@ const reactConf2019Cover = '/images/home/conf2019/cover.svg';
 const communityImages = [
   {
     src: '/images/home/community/react_conf_fun.webp',
-    alt: 'People singing karaoke at React Conf',
+    alt: 'React Conf හි කැරෝකී ගායනා කරන මිනිසුන්',
   },
   {
     src: '/images/home/community/react_india_sunil.webp',
-    alt: 'Sunil Pai speaking at React India',
+    alt: 'සුනිල් පායි React India හිදී අදහස් දක්වමින්',
   },
   {
     src: '/images/home/community/react_conf_hallway.webp',
-    alt: 'A hallway conversation between two people at React Conf',
+    alt: 'React Conf හි පුද්ගලයන් දෙදෙනෙකු අතර ශාලාවේ සංවාදයක්',
   },
   {
     src: '/images/home/community/react_india_hallway.webp',
-    alt: 'A hallway conversation at React India',
+    alt: 'React India හි ශාලාවේ සංවාදයක්',
   },
   {
     src: '/images/home/community/react_conf_elizabet.webp',
-    alt: 'Elizabet Oliveira speaking at React Conf',
+    alt: 'Elizabet Oliveira React Conf හි කතා කරයි',
   },
   {
     src: '/images/home/community/react_india_selfie.webp',
-    alt: 'People taking a group selfie at React India',
+    alt: 'React India හි සමූහ සෙල්ෆියක් ගන්නා පුද්ගලයින්',
   },
   {
     src: '/images/home/community/react_conf_nat.webp',
-    alt: 'Nat Alison speaking at React Conf',
+    alt: 'Nat Alison React conf හි කතා කරයි',
   },
   {
     src: '/images/home/community/react_india_team.webp',
-    alt: 'Organizers greeting attendees at React India',
+    alt: 'React India හි සහභාගිවන්නන්ට ආචාර කරන සංවිධායකයින්',
   },
 ];
 
@@ -1018,35 +1018,35 @@ function Example3() {
   const videos = [
     {
       id: 'vids-0',
-      title: 'React: The Documentary',
-      description: 'The origin story of React',
+      title: 'React: වාර්තා චිත්රපටය',
+      description: 'React හි මූලාරම්භය කතාව',
       image: '/images/home/videos/documentary.webp',
       url: 'https://www.youtube.com/watch?v=8pDqJVdNa44',
     },
     {
       id: 'vids-1',
-      title: 'Rethinking Best Practices',
+      title: 'හොඳම භාවිතයන් ගැන නැවත සිතා බැලීම',
       description: 'Pete Hunt (2013)',
       image: '/images/home/videos/rethinking.jpg',
       url: 'https://www.youtube.com/watch?v=x7cQ3mrcKaY',
     },
     {
       id: 'vids-2',
-      title: 'Introducing React Native',
+      title: 'React Native හඳුන්වා දෙමින්',
       description: 'Tom Occhino (2015)',
       image: '/images/home/videos/rn.jpg',
       url: 'https://www.youtube.com/watch?v=KVZ-P-ZI6W4',
     },
     {
       id: 'vids-3',
-      title: 'Introducing React Hooks',
+      title: 'React කොකු හඳුන්වා දෙමින්',
       description: 'Sophie Alpert and Dan Abramov (2018)',
       image: '/images/home/videos/hooks.jpg',
       url: 'https://www.youtube.com/watch?v=V-QO-KO90iQ',
     },
     {
       id: 'vids-4',
-      title: 'Introducing Server Components',
+      title: 'සේවාදායක සංරචක හඳුන්වා දෙමින්',
       description: 'Dan Abramov and Lauren Tan (2020)',
       image: '/images/home/videos/rsc.jpg',
       url: 'https://www.youtube.com/watch?v=TQQPAU21ZUw',
