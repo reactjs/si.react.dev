@@ -2612,7 +2612,8 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-5',
-            title: 'REST API වෙත GraphQL හි ප්‍රතිලාභ ගෙන ඒම සඳහා Hooks සහ Codegen භාවිතා කිරීම',
+            title: 
+              'REST API වෙත GraphQL හි ප්‍රතිලාභ ගෙන ඒම සඳහා Hooks සහ Codegen භාවිතා කිරීම',
             description: 'Tejas Kumar',
             url: 'https://www.youtube.com/watch?v=cdsnzfJUqm0&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=6',
             image: {
@@ -2630,7 +2631,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-7',
-            title: React තවමත් පරිවර්තනය කර තිබේද?',
+            title: 'React තවමත් පරිවර්තනය කර තිබේද?',
             description: 'Nat Alison',
             url: 'https://www.youtube.com/watch?v=lLE4Jqaek5k&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=12',
             image: {
@@ -2742,7 +2743,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-19',
-            title: React සමඟ රජයේ වියදම්වල විනිවිදභාවය ප්‍රවර්ධනය කිරීම',
+            title: 'React සමඟ රජයේ වියදම්වල විනිවිදභාවය ප්‍රවර්ධනය කිරීම',
             description: 'Lizzie Salita',
             url: 'https://www.youtube.com/watch?v=CVfXICcNfHE&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=26',
             image: {
