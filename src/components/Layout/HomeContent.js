@@ -157,10 +157,10 @@ export function HomeContent() {
           <Center>
             <Header>සංරචක වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
             <Para>
-              React ඔබට තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි
-               සංරචක ලෙස හැඳින්වේ. {' '} වැනි ඔබේම React සංරචක සාදන්න
-              <Code>Thumbnail</Code>, <Code>LikeButton</Code>, and{' '}
-              <Code>Video</Code>. ඉන්පසු ඒවා සම්පූර්ණ තිර, පිටු සහ යෙදුම්වලට ඒකාබද්ධ කරන්න.
+              React ඔබට සංරචක ලෙස හැඳින්වෙන තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි
+              <Code>Thumbnail</Code>, <Code>LikeButton</Code>, හා{' '}
+              <Code>Video</Code>{' '} වැනි ඔබේම React සංරචක සාදන්න.
+              ඉන්පසු ඒවා සම්පූර්ණ තිර, පිටු සහ යෙදුම්වලට ඒකාබද්ධ කරන්න.
             </Para>
           </Center>
           <FullBleed>
@@ -168,10 +168,9 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              ඔබ තනිවම හෝ වෙනත් දහස් ගණනක් සමඟ වැඩ කළත්
-              සංවර්ධකයින්, React භාවිතා කිරීම එලෙසම දැනේ. එය ඔබට ඉඩ දීමට සැලසුම් කර ඇත
-              ස්වාධීන පුද්ගලයන් විසින් ලියන ලද සංරචක බාධාවකින් තොරව ඒකාබද්ධ කරන්න,
-              කණ්ඩායම්, සහ සංවිධාන.
+              ඔබ තනිවම හෝ වෙනත් දහස් ගණනක් සංවර්ධකයින් සමඟ වැඩ කළත්,
+              React භාවිතා කිරීම එලෙසම දැනේ. එය ඔබට ස්වාධීන පුද්ගලයන් කණ්ඩායම්,
+              සහ සංවිධාන විසින් ලියන ලද සංරචක බාධාවකින් තොරව ඒකාබද්ධ කරන්න, ඉඩ දීමට සැලසුම් කර ඇත.
             </Para>
           </Center>
         </Section>
@@ -183,7 +182,7 @@ export function HomeContent() {
               React සංරචක JavaScript ශ්‍රිත වේ. යම් අන්තර්ගතයක් කොන්දේසි
               සහිතව පෙන්වීමට අවශ්‍යද? <Code>if</Code> ප්‍රකාශයක් භාවිතා කරන්න.
               ලැයිස්තුවක් පෙන්වනවාද? array <Code>map()</Code> උත්සාහ කරන්න.
-              React ඉගෙනීම යනු ක්‍රමලේඛනය ඉගෙනීමයි.
+              React යනු ක්‍රමලේඛනය ඉගෙනීමයි.
             </Para>
           </Center>
           <FullBleed>
@@ -249,7 +248,7 @@ export function HomeContent() {
           <Center>
             <Para>
               React ද වාස්තු විද්‍යාවකි. එය ක්‍රියාත්මක කරන රාමු මඟින් සේවාදායකයේ හෝ
-              ගොඩනැගීමේදී පවා ක්‍රියාත්මක වන අසමමුහුර්ත සංරචකවල දත්ත ලබා ගැනීමට
+              ගොඩනැගීමේදී ක්‍රියාත්මක වන අසමමුහුර්ත සංරචකවල දත්ත ලබා ගැනීමට පවා
               ඔබට ඉඩ සලසයි. ගොනුවකින් හෝ දත්ත සමුදායකින් දත්ත කියවා එය ඔබගේ
               අන්තර්ක්‍රියාකාරී සංරචක වෙත ලබා දෙන්න.
             </Para>
@@ -382,10 +381,10 @@ export function HomeContent() {
                           සහ{' '}
                           <Link href="https://github.com/expo/expo">Expo</Link>{' '}
                           ඔබට Android, iOS සහ තවත් දේ සඳහා React හි යෙදුම්
-                          තැනීමට ඉඩ දෙන්න. ඔවුන්ගේ UI{' '} සැබවින්ම ස්වදේශික
+                          තැනීමට ඉඩ දෙයි. ඔවුන්ගේ UI{' '} සැබවින්ම ස්වදේශික
                           බැවින් ඔවුන් ස්වදේශික ලෙස පෙනේ. එය වෙබ් දසුනක්
                           නොවේ—ඔබේ React සංරචක වේදිකාව මඟින් සපයන ලද
-                          සැබෑ Android සහ iOS බැලීම් ලබා දෙයි.
+                          සැබෑ Android සහ iOS දසුන් ලබා දෙයි.
                         </p>
                       </div>
                     </div>
@@ -397,8 +396,8 @@ export function HomeContent() {
               <Para>
                 React සමඟින්, ඔබට වෙබ් <i>සහ</i> ස්වදේශීය සංවර්ධකයෙකු විය හැක. පරිශීලක
                 අත්දැකීම කැප නොකර ඔබේ කණ්ඩායමට බොහෝ වේදිකාවලට නැව්ගත කළ හැක.
-                ඔබේ සංවිධානයට වේදිකා සිලෝස් පාලම් කළ හැකි අතර, සම්පූර්ණ අංගයන්
-                අවසානයේ සිට අවසානය දක්වා ඇති කණ්ඩායම් පිහිටුවීමට හැකිය.
+                ඔබේ සංවිධානයට වේදිකා සිලෝස් පාලම් කළ හැකි අතර, අවසානයේ සිට අවසානය
+                දක්වා සම්පූර්ණ විශේෂාංග හිමි කණ්ඩායම් සාදන්න.
               </Para>
               <div className="flex justify-start w-full lg:justify-center">
                 <CTA color="gray" icon="native" href="https://reactnative.dev/">
@@ -424,8 +423,8 @@ export function HomeContent() {
                   <Para>
                     React කණ්ඩායම සැමවිටම React වැඩිදියුණු කරන්නේ කෙසේදැයි
                     පර්යේෂණ කරයි. සමහර පර්යේෂණවල විපාක ලැබීමට වසර ගණනාවක් ගත වේ.
-                    නිෂ්පාදනයට පර්යේෂණ අදහසක් ගැනීම සඳහා React ඉහළ තීරුවක් ඇත.
-                    Reactවේ කොටසක් බවට පත්වන්නේ ඔප්පු කළ ප්‍රවේශයන් පමණි.
+                    නිෂ්පාදනයට පර්යේෂණ අදහසක් ගැනීම සඳහා React හට ඉහළ තීරුවක් ඇත.
+                    React හි කොටසක් බවට පත්වන්නේ ඔප්පු කළ ප්‍රවේශයන් පමණි.
                   </Para>
                   <div className="hidden lg:flex justify-start w-full">
                     <CTA color="gray" icon="news" href="/blog">
@@ -921,8 +920,8 @@ function Example1() {
           <Video
             video={{
               id: 'ex1-0',
-              title: 'My video',
-              description: 'Video description',
+              title: 'මගේ වීඩියෝව',
+              description: 'වීඩියෝ විස්තරය',
               image: 'blue',
               url: null,
             }}
@@ -945,20 +944,20 @@ function Example2() {
   const videos = [
     {
       id: 'ex2-0',
-      title: 'First video',
-      description: 'Video description',
+      title: 'පළමු වීඩියෝව',
+      description: 'වීඩියෝ විස්තරය',
       image: 'blue',
     },
     {
       id: 'ex2-1',
-      title: 'Second video',
-      description: 'Video description',
+      title: 'දෙවන වීඩියෝව',
+      description: 'වීඩියෝ විස්තරය',
       image: 'red',
     },
     {
       id: 'ex2-2',
-      title: 'Third video',
-      description: 'Video description',
+      title: 'තුන්වන වීඩියෝව',
+      description: 'වීඩියෝ විස්තරය',
       image: 'green',
     },
   ];
@@ -2386,8 +2385,8 @@ function fetchTalks(confId) {
         resolve([
           {
             id: 'conf-2021-0',
-            title: 'React 18 Keynote',
-            description: 'The React Team',
+            title: 'React 18 ප්රධාන දේශනය',
+            description: 'React කණ්ඩායම',
             url: 'https://www.youtube.com/watch?v=FZ0cG47msEk&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=1',
             image: {
               speakers: [
@@ -2400,7 +2399,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-1',
-            title: 'React 18 for App Developers',
+            title: 'යෙදුම් සංවර්ධකයින් සඳහා React 18',
             description: 'Shruti Kapoor',
             url: 'https://www.youtube.com/watch?v=ytudH8je5ko&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=2',
             image: {
@@ -2409,7 +2408,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-2',
-            title: 'Streaming Server Rendering with Suspense',
+            title: 'Suspense සමඟ Streaming Server Rendering',
             description: 'Shaundai Person',
             url: 'https://www.youtube.com/watch?v=pj5N-Khihgc&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=3',
             image: {
@@ -2418,7 +2417,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-3',
-            title: 'The First React Working Group',
+            title: 'පළමු React ක්රියාකාරී කණ්ඩායම',
             description: 'Aakansha Doshi',
             url: 'https://www.youtube.com/watch?v=qn7gRClrC9U&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=4',
             image: {
@@ -2427,7 +2426,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-4',
-            title: 'React Developer Tooling',
+            title: 'React සංවර්ධක මෙවලම්',
             description: 'Brian Vaughn',
             url: 'https://www.youtube.com/watch?v=oxDfrke8rZg&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=5',
             image: {
@@ -2436,7 +2435,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-5',
-            title: 'React without memo',
+            title: 'මතක සටහන් නොමැතිව React',
             description: 'Xuan Huang (黄玄)',
             url: 'https://www.youtube.com/watch?v=lGEMwh32soc&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=6',
             image: {
@@ -2445,7 +2444,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-6',
-            title: 'React Docs Keynote',
+            title: 'React Docs ප්රධාන දේශනය',
             description: 'Rachel Nabors',
             url: 'https://www.youtube.com/watch?v=mneDaMYOKP8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=7',
             image: {
@@ -2454,7 +2453,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-7',
-            title: 'Things I Learnt from the New React Docs',
+            title: 'නව React Docs සමඟ මා ඉගෙන ගත් දේවල්',
             description: "Debbie O'Brien",
             url: 'https://www.youtube.com/watch?v=-7odLW_hG7s&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=8',
             image: {
@@ -2463,7 +2462,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-8',
-            title: 'Learning in the Browser',
+            title: 'බ්‍රවුසරයේ ඉගෙනීම',
             description: 'Sarah Rainsberger',
             url: 'https://www.youtube.com/watch?v=5X-WEQflCL0&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=9',
             image: {
@@ -2472,7 +2471,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-9',
-            title: 'The ROI of Designing with React',
+            title: 'ප්‍රතික්‍රියා සමඟ සැලසුම් කිරීමේ ROI',
             description: 'Linton Ye',
             url: 'https://www.youtube.com/watch?v=7cPWmID5XAk&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=10',
             image: {
@@ -2481,7 +2480,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-10',
-            title: 'Interactive Playgrounds with React',
+            title: 'React සමඟ අන්තර්ක්‍රියාකාරී ක්‍රීඩා පිටි',
             description: 'Delba de Oliveira',
             url: 'https://www.youtube.com/watch?v=zL8cz2W0z34&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=11',
             image: {
@@ -2490,7 +2489,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-11',
-            title: 'Re-introducing Relay',
+            title: 'Relay නැවත හඳුන්වා දීම',
             description: 'Robert Balicki',
             url: 'https://www.youtube.com/watch?v=lhVGdErZuN4&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=12',
             image: {
@@ -2511,7 +2510,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-13',
-            title: 'On-device Machine Learning for React Native',
+            title: 'React Native සඳහා උපාංගය මත යන්ත්‍ර ඉගෙනීම',
             description: 'Roman Rädle',
             url: 'https://www.youtube.com/watch?v=NLj73vrc2I8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=14',
             image: {
@@ -2520,7 +2519,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-14',
-            title: 'React 18 for External Store Libraries',
+            title: 'බාහිර ගබඩා පුස්තකාල සඳහා React 18',
             description: 'Daishi Kato',
             url: 'https://www.youtube.com/watch?v=oPfSC5bQPR8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=15',
             image: {
@@ -2529,7 +2528,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-15',
-            title: 'Building Accessible Components with React 18',
+            title: 'React 18 සමඟ ප්‍රවේශ විය හැකි සංරචක ගොඩනැගීම',
             description: 'Diego Haz',
             url: 'https://www.youtube.com/watch?v=dcm8fjBfro8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=16',
             image: {
@@ -2538,7 +2537,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-16',
-            title: 'Accessible Japanese Form Components with React',
+            title: 'React සමඟ ප්‍රවේශ විය හැකි ජපන් ආකෘති සංරචක',
             description: 'Tafu Nakazaki',
             url: 'https://www.youtube.com/watch?v=S4a0QlsH0pU&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=17',
             image: {
@@ -2547,7 +2546,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-17',
-            title: 'UI Tools for Artists',
+            title: 'කලාකරුවන් සඳහා UI මෙවලම්',
             description: 'Lyle Troxell',
             url: 'https://www.youtube.com/watch?v=b3l4WxipFsE&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=18',
             image: {
@@ -2568,7 +2567,7 @@ function fetchTalks(confId) {
         resolve([
           {
             id: 'conf-2019-0',
-            title: 'Keynote (Part 1)',
+            title: 'ප්රධාන දේශනය (1 කොටස)',
             description: 'Tom Occhino',
             url: 'https://www.youtube.com/watch?v=QnZHO7QvjaM&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh',
             image: {
@@ -2577,7 +2576,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-1',
-            title: 'Keynote (Part 2)',
+            title: 'ප්රධාන දේශනය (2 කොටස)',
             description: 'Yuzhi Zheng',
             url: 'https://www.youtube.com/watch?v=uXEEL9mrkAQ&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=2',
             image: {
@@ -2586,7 +2585,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-2',
-            title: 'Building The New Facebook With React and Relay (Part 1)',
+            title: 'React සහ Relay සමඟින් නව ෆේස්බුක් ගොඩනැගීම (1 කොටස)',
             description: 'Frank Yan',
             url: 'https://www.youtube.com/watch?v=9JZHodNR184&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=3',
             image: {
@@ -2595,7 +2594,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-3',
-            title: 'Building The New Facebook With React and Relay (Part 2)',
+            title: 'React සහ Relay සමඟින් නව ෆේස්බුක් ගොඩනැගීම (2 කොටස)',
             description: 'Ashley Watkins',
             url: 'https://www.youtube.com/watch?v=KT3XKDBZW7M&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=4',
             image: {
@@ -2604,7 +2603,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-4',
-            title: 'How Our Team Is Using React Native to Save The World',
+            title: 'ලෝකය සුරැකීමට අපගේ කණ්ඩායම React Native භාවිතා කරන ආකාරය',
             description: 'Tania Papazafeiropoulou',
             url: 'https://www.youtube.com/watch?v=zVHWugBPGBE&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=5',
             image: {
@@ -2613,8 +2612,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-5',
-            title:
-              'Using Hooks and Codegen to Bring the Benefits of GraphQL to REST APIs',
+            title: 'REST API වෙත GraphQL හි ප්‍රතිලාභ ගෙන ඒම සඳහා Hooks සහ Codegen භාවිතා කිරීම',
             description: 'Tejas Kumar',
             url: 'https://www.youtube.com/watch?v=cdsnzfJUqm0&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=6',
             image: {
@@ -2623,7 +2621,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-6',
-            title: 'Building a Custom React Renderer',
+            title: 'අභිරුචි React විදැහුම්කරුවෙකු ගොඩනැගීම',
             description: 'Sophie Alpert',
             url: 'https://www.youtube.com/watch?v=CGpMlWVcHok&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=7',
             image: {
@@ -2632,7 +2630,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-7',
-            title: 'Is React Translated Yet?',
+            title: React තවමත් පරිවර්තනය කර තිබේද?',
             description: 'Nat Alison',
             url: 'https://www.youtube.com/watch?v=lLE4Jqaek5k&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=12',
             image: {
@@ -2641,7 +2639,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-8',
-            title: 'Building (And Re-Building) the Airbnb Design System',
+            title: 'Airbnb සැලසුම් පද්ධතිය ගොඩනැගීම (සහ නැවත ගොඩනැගීම).',
             description: 'Maja Wichrowska and Tae Kim',
             url: 'https://www.youtube.com/watch?v=fHQ1WSx41CA&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=13',
             image: {
@@ -2653,7 +2651,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-9',
-            title: 'Accessibility Is a Marathon, Not a Sprint',
+            title: 'ප්‍රවේශ්‍යතාව මැරතන් තරගයක් මිස sprint එකක් නොවේ',
             description: 'Brittany Feenstra',
             url: 'https://www.youtube.com/watch?v=ONSD-t4gBb8&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=14',
             image: {
@@ -2662,7 +2660,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-10',
-            title: 'The State of React State in 2019',
+            title: '2019 දී React State තත්ත්වය',
             description: 'Becca Bailey',
             url: 'https://www.youtube.com/watch?v=wUMMUyQtMSg&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=15',
             image: {
@@ -2671,7 +2669,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-11',
-            title: 'Let’s Program Like It’s 1999',
+            title: '1999 වගේ වැඩසටහන් කරමු',
             description: 'Lee Byron',
             url: 'https://www.youtube.com/watch?v=vG8WpLr6y_U&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=16',
             image: {
@@ -2680,7 +2678,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-12',
-            title: 'React Developer Tooling',
+            title: 'React සංවර්ධක මෙවලම්',
             description: 'Brian Vaughn',
             url: 'https://www.youtube.com/watch?v=Mjrfb1r3XEM&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=17',
             image: {
@@ -2689,7 +2687,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-13',
-            title: 'Data Fetching With Suspense In Relay',
+            title: 'Relay තුල Suspense සමඟ දත්ත ලබා ගැනීම',
             description: 'Joe Savona',
             url: 'https://www.youtube.com/watch?v=Tl0S7QkxFE4&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=18',
             image: {
@@ -2698,7 +2696,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-14',
-            title: 'Automatic Visualizations of the Frontend',
+            title: 'ඉදිරිපස ස්වයංක්‍රීය දෘශ්‍යකරණය',
             description: 'Cameron Yick',
             url: 'https://www.youtube.com/watch?v=SbreAPNmZOk&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=19',
             image: {
@@ -2707,7 +2705,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-15',
-            title: 'React Is Fiction',
+            title: 'React ප්‍රබන්ධයකි',
             description: 'Jenn Creighton',
             url: 'https://www.youtube.com/watch?v=kqh4lz2Lkzs&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=20',
             image: {
@@ -2716,7 +2714,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-16',
-            title: 'Progressive Web Animations',
+            title: 'ප්‍රගතිශීලී වෙබ් සජීවිකරණ',
             description: 'Alexandra Holachek',
             url: 'https://www.youtube.com/watch?v=laPsceJ4tTY&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=21',
             image: {
@@ -2726,7 +2724,7 @@ function fetchTalks(confId) {
           {
             id: 'conf-2019-17',
             title:
-              'Creating Games, Animations and Interactions with the Wick Editor',
+              'වික් සංස්කාරකය සමඟ ක්‍රීඩා, සජීවිකරණ සහ අන්තර්ක්‍රියා නිර්මාණය කිරීම',
             description: 'Luca Damasco',
             url: 'https://www.youtube.com/watch?v=laPsceJ4tTY&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=21',
             image: {
@@ -2735,7 +2733,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-18',
-            title: 'Building React-Select',
+            title: 'React-Select ගොඩනඟයි',
             description: 'Jed Watson',
             url: 'https://www.youtube.com/watch?v=yS0jUnmBujE&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=25',
             image: {
@@ -2744,7 +2742,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-19',
-            title: 'Promoting Transparency in Government Spending with React',
+            title: React සමඟ රජයේ වියදම්වල විනිවිදභාවය ප්‍රවර්ධනය කිරීම',
             description: 'Lizzie Salita',
             url: 'https://www.youtube.com/watch?v=CVfXICcNfHE&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=26',
             image: {
@@ -2753,7 +2751,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-20',
-            title: 'Wonder-driven Development: Using React to Make a Spaceship',
+            title: 'ආශ්චර්යමත් සංවර්ධනය: අභ්‍යවකාශ යානයක් සෑදීමට React භාවිතා කිරීම',
             description: 'Alex Anderson',
             url: 'https://www.youtube.com/watch?v=aV0uOPWHKt4&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=27',
             image: {
