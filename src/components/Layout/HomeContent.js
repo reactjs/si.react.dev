@@ -131,7 +131,7 @@ export function HomeContent() {
             React
           </h1>
           <p className="text-4xl font-display max-w-lg md:max-w-full py-1 text-center text-secondary dark:text-primary-dark leading-snug self-center">
-            The library for web and native user interfaces
+            වෙබ් සහ දේශීය පරිශීලක අතුරුමුහුණත් සඳහා පුස්තකාලය
           </p>
           <div className="mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row">
             <ButtonLink
@@ -139,29 +139,28 @@ export function HomeContent() {
               type="primary"
               size="lg"
               className="w-full sm:w-auto justify-center"
-              label="Learn React">
-              Learn React
+              label="React ඉගෙන ගන්න">
+              React ඉගෙන ගන්න
             </ButtonLink>
             <ButtonLink
               href={'/reference/react'}
               type="secondary"
               size="lg"
               className="w-full sm:w-auto justify-center"
-              label="API Reference">
-              API Reference
+              label="API යොමුව">
+              API යොමුව
             </ButtonLink>
           </div>
         </div>
 
         <Section background="left-card">
           <Center>
-            <Header>Create user interfaces from components</Header>
+            <Header>සංරචක වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
             <Para>
-              React lets you build user interfaces out of individual pieces
-              called components. Create your own React components like{' '}
+              ප්‍රතික්‍රියා ඔබට තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි
+               සංරචක ලෙස හැඳින්වේ. {' '} වැනි ඔබේම ප්‍රතික්‍රියා සංරචක සාදන්න
               <Code>Thumbnail</Code>, <Code>LikeButton</Code>, and{' '}
-              <Code>Video</Code>. Then combine them into entire screens, pages,
-              and apps.
+              <Code>Video</Code>. ඉන්පසු ඒවා සම්පූර්ණ තිර, පිටු සහ යෙදුම්වලට ඒකාබද්ධ කරන්න.
             </Para>
           </Center>
           <FullBleed>
@@ -169,22 +168,22 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              Whether you work on your own or with thousands of other
-              developers, using React feels the same. It is designed to let you
-              seamlessly combine components written by independent people,
-              teams, and organizations.
+              ඔබ තනිවම හෝ වෙනත් දහස් ගණනක් සමඟ වැඩ කළත්
+              සංවර්ධකයින්, ප්‍රතික්‍රියා භාවිතා කිරීම එලෙසම දැනේ. එය ඔබට ඉඩ දීමට සැලසුම් කර ඇත
+              ස්වාධීන පුද්ගලයන් විසින් ලියන ලද සංරචක බාධාවකින් තොරව ඒකාබද්ධ කරන්න,
+              කණ්ඩායම්, සහ සංවිධාන.
             </Para>
           </Center>
         </Section>
 
         <Section background="right-card">
           <Center>
-            <Header>Write components with code and markup</Header>
+            <Header>කේතය සහ සලකුණු සමඟ සංරචක ලියන්න</Header>
             <Para>
-              React components are JavaScript functions. Want to show some
-              content conditionally? Use an <Code>if</Code> statement.
-              Displaying a list? Try array <Code>map()</Code>. Learning React is
-              learning programming.
+              ප්‍රතික්‍රියා සංරචක JavaScript ශ්‍රිත වේ. යම් අන්තර්ගතයක් කොන්දේසි
+              සහිතව පෙන්වීමට අවශ්‍යද? <Code>if</Code> ප්‍රකාශයක් භාවිතා කරන්න.
+              ලැයිස්තුවක් පෙන්වනවාද? array <Code>map()</Code> උත්සාහ කරන්න.
+              React ඉගෙනීම යනු ක්‍රමලේඛනය ඉගෙනීමයි.
             </Para>
           </Center>
           <FullBleed>
@@ -192,22 +191,22 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              This markup syntax is called JSX. It is a JavaScript syntax
-              extension popularized by React. Putting JSX markup close to
-              related rendering logic makes React components easy to create,
-              maintain, and delete.
+              මෙම සලකුණු වාක්‍ය ඛණ්ඩය JSX ලෙස හැඳින්වේ.
+              එය React මගින් ප්‍රචලිත කරන ලද JavaScript සින්ටැක්ස් දිගුවකි.
+              JSX සලකුණු කිරීම අදාළ විදැහුම් තර්කයට ආසන්නව තැබීමෙන්
+              ප්‍රතික්‍රියා සංරචක සෑදීම, නඩත්තු කිරීම සහ මකා දැමීම පහසු කරයි.
             </Para>
           </Center>
         </Section>
 
         <Section background="left-card">
           <Center>
-            <Header>Add interactivity wherever you need it</Header>
+            <Header>ඔබට අවශ්‍ය ඕනෑම තැනක අන්තර්ක්‍රියාකාරීත්වය එක් කරන්න</Header>
             <Para>
-              React components receive data and return what should appear on the
-              screen. You can pass them new data in response to an interaction,
-              like when the user types into an input. React will then update the
-              screen to match the new data.
+              ප්‍රතික්‍රියා සංරචක දත්ත ලබා ගන්නා අතර තිරයේ දිස්විය යුතු දේ
+              ආපසු ලබා දෙයි. පරිශීලකයා ආදානයකට ටයිප් කරන විට වැනි
+              අන්තර්ක්‍රියාවකට ප්‍රතිචාර වශයෙන් ඔබට ඔවුන්ට නව දත්ත ලබා දිය හැක.
+              ප්‍රතික්‍රියා පසුව නව දත්තවලට ගැළපෙන පරිදි තිරය යාවත්කාලීන කරනු ඇත.
             </Para>
           </Center>
           <FullBleed>
@@ -215,16 +214,16 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              You don’t have to build your whole page in React. Add React to
-              your existing HTML page, and render interactive React components
-              anywhere on it.
+              ඔබට ඔබේ මුළු පිටුවම ප්‍රතික්‍රියා තුළ ගොඩනගා ගැනීමට අවශ්‍ය නැත.
+              ඔබගේ පවතින HTML පිටුවට ප්‍රතික්‍රියා එක් කරන්න, 
+              සහ එහි ඕනෑම තැනක අන්තර්ක්‍රියාකාරී ප්‍රතික්‍රියා සංරචක ලබා දෙන්න.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
                 color="gray"
                 icon="code"
                 href="/learn/add-react-to-an-existing-project">
-                Add React to your page
+                ඔබේ පිටුවට React එක් කරන්න
               </CTA>
             </div>
           </Center>
@@ -233,15 +232,15 @@ export function HomeContent() {
         <Section background="right-card">
           <Center>
             <Header>
-              Go full-stack <br className="hidden lg:inline" />
-              with a framework
+              රාමුවක් සමඟ <br className="hidden lg:inline" />
+              full-stack වෙත යන්න
             </Header>
             <Para>
-              React is a library. It lets you put components together, but it
-              doesn’t prescribe how to do routing and data fetching. To build an
-              entire app with React, we recommend a full-stack React framework
-              like <Link href="https://nextjs.org">Next.js</Link> or{' '}
-              <Link href="https://remix.run">Remix</Link>.
+              React යනු පුස්තකාලයකි. එය ඔබට සංරචක එකට තැබීමට ඉඩ සලසයි, නමුත්
+              එය මාර්ගගත කිරීම සහ දත්ත ලබා ගැනීම සිදු කරන ආකාරය නියම නොකරයි.
+               React සමඟ සම්පූර්ණ යෙදුමක් තැනීමට, අපි නිර්දේශ කරන්නේ, 
+               <Link href="https://nextjs.org">Next.js</Link> හෝ{' '}
+               <Link href="https: //remix.run">Remix</Link> වැනි full-stack React framework වේ.
             </Para>
           </Center>
           <FullBleed>
