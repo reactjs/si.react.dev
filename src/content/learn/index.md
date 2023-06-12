@@ -46,7 +46,7 @@ export default function MyApp() {
 }
 ```
 
-`<MyButton />` ආරම්භ වන්නේ ලොකු අකුරකින් බව සලකන්න. එය React component එකක් බව ඔබ දන්නේ එලෙසයි. React component එකක් සෑම විටම ලොකු අකුරකින් ආරම්භ විය යුතු අතර HTML ටැග් කුඩා අකුරු විය යුතුය.
+`<MyButton />` ආරම්භ වන්නේ ලොකු අකුරකින් බව සලකන්න. එය React component එකක් බව ඔබ දන්නේ එලෙසයි. React component එකක් සෑම විටම ලොකු අකුරකින් ආරම්භ විය යුතු අතර HTML ටැග්​ස් කුඩා අකුරු විය යුතුය.
 
 මේ ප්‍රතිපලය දෙස බලන්​න:
 
@@ -73,13 +73,14 @@ export default function MyApp() {
 
 </Sandpack>
 
-The `export default` keywords specify the main component in the file. If you're not familiar with some piece of JavaScript syntax, [MDN](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) and [javascript.info](https://javascript.info/import-export) have great references.
+`export default` යන වචනය file එකේ ප්‍රධා​න component එක නිර්වචනය කරයි. JavaScript syntax වල යම් කොටසක් ඔබට හුරු නැතිනම්, [MDN](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) ස​හ [javascript.info](https://javascript.info/import-export) යන වෙබ් අඩවිවල විශිෂ්ට හැදින්වීම් ඇත.
 
 ## Writing markup with JSX {/*writing-markup-with-jsx*/}
 
-The markup syntax you've seen above is called *JSX*. It is optional, but most React projects use JSX for its convenience. All of the [tools we recommend for local development](/learn/installation) support JSX out of the box.
+ඔබ ඉහතින් දකින ලද markup syntax  ඛණ්ඩය *JSX* ලෙස හැඳින්වේ. එය අත්‍යවශ්‍ය නොවේ, නමුත් බොහෝ React projects ඒවාගේ පහසුව සඳහා JSX භාවිතා කරයි. [Local development සදහා අප නිර්දේශ කරනා සියලුම මෙවලම්](/learn/installation) JSX සදහා ක්ෂණිකව​ම සහය දක්වයි.
 
-JSX is stricter than HTML. You have to close tags like `<br />`. Your component also can't return multiple JSX tags. You have to wrap them into a shared parent, like a `<div>...</div>` or an empty `<>...</>` wrapper:
+JSX  HTML වලට වඩා දැඩියි. `<br />` වැනි ටැග් ඔබ විසින් අනිවාර්යෙන් වසා දැමිය යුතුය. ඔබේ component එකට JSX tags එකකට වඩා return කල නොහැකිය. ඔබ ඒවා පොදුව බෙදාගත් මූලයක් තුලට අන්තර්ගත කල යුතුය, `<div>...</div>` මෙලෙ​ස ​හෝ 
+හි​ස් `<>...</>` වැස්මක් තුල​ට:
 
 ```js {3,6}
 function AboutPage() {
@@ -92,7 +93,7 @@ function AboutPage() {
 }
 ```
 
-If you have a lot of HTML to port to JSX, you can use an [online converter.](https://transform.tools/html-to-jsx)
+ඔබට HTML කේත විශාල ප්‍රමාණයක් JSX ලෙස සැකසීමට අවශ්‍යයි නම්, ඔබට [online converter](https://transform.tools/html-to-jsx) එකක් භාවිතා කල හැකි​ය.
 
 ## Adding styles {/*adding-styles*/}
 
