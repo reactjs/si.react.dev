@@ -131,7 +131,7 @@ export function HomeContent() {
             React
           </h1>
           <p className="text-4xl font-display max-w-lg md:max-w-full py-1 text-center text-secondary dark:text-primary-dark leading-snug self-center">
-            වෙබ් සහ දේශීය පරිශීලක අතුරුමුහුණත් සඳහා පුස්තකාලය
+            වෙබ් සහ ස්වදේශීය පරිශීලක අතුරුමුහුණත් සඳහා පුස්තකාලය
           </p>
           <div className="mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row">
             <ButtonLink
@@ -155,12 +155,12 @@ export function HomeContent() {
 
         <Section background="left-card">
           <Center>
-            <Header>සංරචක වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
+            <Header>components වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
             <Para>
-              React ඔබට සංරචක ලෙස හැඳින්වෙන තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි
+              React ඔබට components ලෙස හැඳින්වෙන තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි.{' '}
               <Code>Thumbnail</Code>, <Code>LikeButton</Code>, හා{' '}
-              <Code>Video</Code>{' '} වැනි ඔබේම React සංරචක සාදන්න.
-              ඉන්පසු ඒවා සම්පූර්ණ තිර, පිටු සහ යෙදුම්වලට ඒකාබද්ධ කරන්න.
+              <Code>Video</Code>{' '} වැනි ඔබේම React components සාදන්න.
+              ඉන්පසු ඒවා සම්පූර්ණ තිර, පිටු සහ යෙදුම් වලට ඒකාබද්ධ කරන්න.
             </Para>
           </Center>
           <FullBleed>
@@ -169,20 +169,20 @@ export function HomeContent() {
           <Center>
             <Para>
               ඔබ තනිවම හෝ වෙනත් දහස් ගණනක් සංවර්ධකයින් සමඟ වැඩ කළත්,
-              React භාවිතා කිරීම එලෙසම දැනේ. එය ඔබට ස්වාධීන පුද්ගලයන් කණ්ඩායම්,
-              සහ සංවිධාන විසින් ලියන ලද සංරචක බාධාවකින් තොරව ඒකාබද්ධ කරන්න, ඉඩ දීමට සැලසුම් කර ඇත.
+              React භාවිතා කිරීම එකලෙසම දැනේ. එය ඔබට ස්වාධීන පුද්ගලයන් කණ්ඩායම්,
+              සහ සංවිධාන විසින් ලියන ලද components බාධාවකින් තොරව ඒකාබද්ධ කරන්නට, ඉඩ දීමට සැලසුම් කර ඇත.
             </Para>
           </Center>
         </Section>
 
         <Section background="right-card">
           <Center>
-            <Header>කේතය සහ සලකුණු සමඟ සංරචක ලියන්න</Header>
+            <Header>කේත සහ markup සමඟ components ලියන්න</Header>
             <Para>
-              React සංරචක JavaScript ශ්‍රිත වේ. යම් අන්තර්ගතයක් කොන්දේසි
+              React components JavaScript functions වේ. යම් අන්තර්ගතයක් කොන්දේසි
               සහිතව පෙන්වීමට අවශ්‍යද? <Code>if</Code> ප්‍රකාශයක් භාවිතා කරන්න.
               ලැයිස්තුවක් පෙන්වනවාද? array <Code>map()</Code> උත්සාහ කරන්න.
-              React යනු ක්‍රමලේඛනය ඉගෙනීමයි.
+              React ඉගෙනීම යනු ක්‍රමලේඛනය ඉගෙනීමයි.
             </Para>
           </Center>
           <FullBleed>
@@ -190,10 +190,10 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              මෙම සලකුණු වාක්‍ය ඛණ්ඩය JSX ලෙස හැඳින්වේ.
-              එය React මගින් ප්‍රචලිත කරන ලද JavaScript සින්ටැක්ස් දිගුවකි.
+              මෙම markup වාක්‍ය ඛණ්ඩය JSX ලෙස හැඳින්වේ.
+              එය React මගින් ප්‍රචලිත කරන ලද JavaScript syntax දිගුවකි.
               JSX සලකුණු කිරීම අදාළ විදැහුම් තර්කයට ආසන්නව තැබීමෙන්
-              React සංරචක සෑදීම, නඩත්තු කිරීම සහ මකා දැමීම පහසු කරයි.
+              React components සෑදීම, නඩත්තු කිරීම සහ මකා දැමීම පහසු කරයි.
             </Para>
           </Center>
         </Section>
@@ -202,10 +202,10 @@ export function HomeContent() {
           <Center>
             <Header>ඔබට අවශ්‍ය ඕනෑම තැනක අන්තර්ක්‍රියාකාරීත්වය එක් කරන්න</Header>
             <Para>
-              React සංරචක දත්ත ලබා ගන්නා අතර තිරයේ දිස්විය යුතු දේ
+              React components දත්ත ලබා ගන්නා අතර තිරයේ දිස්විය යුතු දේ
               ආපසු ලබා දෙයි. පරිශීලකයා ආදානයකට ටයිප් කරන විට වැනි
               අන්තර්ක්‍රියාවකට ප්‍රතිචාර වශයෙන් ඔබට ඔවුන්ට නව දත්ත ලබා දිය හැක.
-              React පසුව නව දත්තවලට ගැළපෙන පරිදි තිරය යාවත්කාලීන කරනු ඇත.
+              React පසුව නව දත්තවලට ගැළපෙන පරිදි තිරය update කරනු ඇත.
             </Para>
           </Center>
           <FullBleed>
@@ -215,7 +215,7 @@ export function HomeContent() {
             <Para>
               ඔබට ඔබේ මුළු පිටුවම React තුළ ගොඩනගා ගැනීමට අවශ්‍ය නැත.
               ඔබගේ පවතින HTML පිටුවට React එක් කරන්න, 
-              සහ එහි ඕනෑම තැනක අන්තර්ක්‍රියාකාරී React සංරචක ලබා දෙන්න.
+              සහ එහි ඕනෑම තැනක අන්තර්ක්‍රියාකාරී React components ලබා දෙන්න.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
@@ -231,12 +231,12 @@ export function HomeContent() {
         <Section background="right-card">
           <Center>
             <Header>
-              රාමුවක් සමඟ <br className="hidden lg:inline" />
+              framework එකක් සමඟ <br className="hidden lg:inline" />
               full-stack වෙත යන්න
             </Header>
             <Para>
-              React යනු පුස්තකාලයකි. එය ඔබට සංරචක එකට තැබීමට ඉඩ සලසයි, නමුත්
-              එය මාර්ගගත කිරීම සහ දත්ත ලබා ගැනීම සිදු කරන ආකාරය නියම නොකරයි.
+              React යනු පුස්තකාලයකි. එය ඔබට components එකට තැබීමට ඉඩ සලසයි, නමුත්
+              එය routing සහ දත්ත ලබා ගැනීම සිදු කරන ආකාරය නියම නොකරයි.
               React සමඟ සම්පූර්ණ යෙදුමක් තැනීමට, අපි නිර්දේශ කරන්නේ, 
               <Link href="https://nextjs.org">Next.js</Link> හෝ{' '}
               <Link href="https: //remix.run">Remix</Link> වැනි full-stack React framework වේ.
@@ -247,17 +247,17 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              React ද වාස්තු විද්‍යාවකි. එය ක්‍රියාත්මක කරන රාමු මඟින් සේවාදායකයේ හෝ
-              ගොඩනැගීමේදී ක්‍රියාත්මක වන අසමමුහුර්ත සංරචකවල දත්ත ලබා ගැනීමට පවා
-              ඔබට ඉඩ සලසයි. ගොනුවකින් හෝ දත්ත සමුදායකින් දත්ත කියවා එය ඔබගේ
-              අන්තර්ක්‍රියාකාරී සංරචක වෙත ලබා දෙන්න.
+              React ද වාස්තු විද්‍යාවකි. එය ක්‍රියාත්මක කරන frameworks මඟින් server මත හෝ
+              ගොඩනැගීමේදී ක්‍රියාත්මක වන අසමමුහුර්ත components-වල දත්ත ලබා ගැනීමට පවා
+              ඔබට ඉඩ සලසයි. ගොනුවකින් හෝ database මඟින් දත්ත කියවා එය ඔබගේ
+              අන්තර්ක්‍රියාකාරී components වෙත ලබා දෙන්න.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
                 color="gray"
                 icon="framework"
                 href="/learn/start-a-new-react-project">
-                රාමුවක් සමඟ ආරම්භ කරන්න
+                Framework එකක් සමඟ ආරම්භ කරන්න
               </CTA>
             </div>
           </Center>
@@ -287,10 +287,10 @@ export function HomeContent() {
                         වෙබයට සත්‍යව සිටින්න
                       </h4>
                       <p className="lg:text-xl leading-normal text-secondary">
-                        වෙබ් යෙදුම් පිටු වේගයෙන් පූරණය වනු ඇතැයි ජනතාව අපේක්ෂා කරති.
-                        සේවාදායකයේ, React ඔබ තවමත් දත්ත ලබා ගනිමින් සිටින අතරතුර HTML
+                        වෙබ් යෙදුම් පිටු වේගයෙන් පූරණය වනු ඇතැයි මිනිසුන් අපේක්ෂා කරති.
+                        Server තුල, React ඔබ තවමත් දත්ත ලබා ගනිමින් සිටින අතරතුර HTML
                         ප්‍රවාහය ආරම්භ කිරීමට ඉඩ සලසයි, ඕනෑම JavaScript කේතයක් පූරණය
-                        වීමට පෙර ඉතිරි අන්තර්ගතය ක්‍රමානුකූලව පුරවයි. සේවාලාභියා මත,
+                        වීමට පෙර ඉතිරි අන්තර්ගතය ක්‍රමානුකූලව පුරවයි. Client මත,
                         විදැහුම්කරණය මධ්‍යයේ පවා ඔබේ UI ප්‍රතිචාරාත්මකව තබා ගැනීමට React
                         හට සම්මත වෙබ් API භාවිත කළ හැක.
                       </p>
@@ -382,8 +382,8 @@ export function HomeContent() {
                           <Link href="https://github.com/expo/expo">Expo</Link>{' '}
                           ඔබට Android, iOS සහ තවත් දේ සඳහා React හි යෙදුම්
                           තැනීමට ඉඩ දෙයි. ඔවුන්ගේ UI{' '} සැබවින්ම ස්වදේශික
-                          බැවින් ඔවුන් ස්වදේශික ලෙස පෙනේ. එය වෙබ් දසුනක්
-                          නොවේ—ඔබේ React සංරචක වේදිකාව මඟින් සපයන ලද
+                          බැවින් ඔවුන් ස්වදේශික ලෙස පෙනේ. එය web view
+                          නොවේ—ඔබේ React components වේදිකාව මඟින් සපයන ලද
                           සැබෑ Android සහ iOS දසුන් ලබා දෙයි.
                         </p>
                       </div>
@@ -396,7 +396,7 @@ export function HomeContent() {
               <Para>
                 React සමඟින්, ඔබට වෙබ් <i>සහ</i> ස්වදේශීය සංවර්ධකයෙකු විය හැක. පරිශීලක
                 අත්දැකීම කැප නොකර ඔබේ කණ්ඩායමට බොහෝ වේදිකාවලට නැව්ගත කළ හැක.
-                ඔබේ සංවිධානයට වේදිකා සිලෝස් පාලම් කළ හැකි අතර, අවසානයේ සිට අවසානය
+                ඔබේ සංවිධානයට වේදිකා silos පාලම් කළ හැකි අතර, අවසානයේ සිට අවසානය
                 දක්වා සම්පූර්ණ විශේෂාංග හිමි කණ්ඩායම් සාදන්න.
               </Para>
               <div className="flex justify-start w-full lg:justify-center">
@@ -416,7 +416,7 @@ export function HomeContent() {
                 <Para>
                   React ප්‍රවේශයන් ප්‍රවේශමෙන් වෙනස් වේ. සෑම React කැපවීමක්ම
                   බිලියනයකට අධික පරිශීලකයින් සිටින ව්‍යාපාරික-විවේචනාත්මක පෘෂ්ඨයන්
-                  මත පරීක්ෂා කරනු ලැබේ. Meta හි 100,000 කට අධික React සංරචක
+                  මත පරීක්ෂා කරනු ලැබේ. Meta හි 100,000 කට අධික React components
                   සෑම සංක්‍රමණ උපායමාර්ගයක්ම වලංගු කිරීමට උදවු කරයි.
                 </Para>
                 <div className="order-last pt-5">
@@ -428,7 +428,7 @@ export function HomeContent() {
                   </Para>
                   <div className="hidden lg:flex justify-start w-full">
                     <CTA color="gray" icon="news" href="/blog">
-                      වැඩිදුර කියවන්න React ප්‍රවෘත්ති
+                      වැඩිදුර කියවන්න React පුවත්
                     </CTA>
                   </div>
                 </div>
@@ -454,7 +454,7 @@ export function HomeContent() {
                 </div>
                 <div className="flex lg:hidden justify-start w-full">
                   <CTA color="gray" icon="news" href="/blog">
-                    වැඩිදුර කියවන්න React ප්‍රවෘත්ති
+                    වැඩිදුර කියවන්න React පුවත්
                   </CTA>
                 </div>
               </div>
@@ -1045,7 +1045,7 @@ function Example3() {
     },
     {
       id: 'vids-4',
-      title: 'සේවාදායක සංරචක හඳුන්වා දෙමින්',
+      title: 'සේවාදායක components හඳුන්වා දෙමින්',
       description: 'Dan Abramov and Lauren Tan (2020)',
       image: '/images/home/videos/rsc.jpg',
       url: 'https://www.youtube.com/watch?v=TQQPAU21ZUw',
@@ -2471,7 +2471,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-9',
-            title: 'ප්‍රතික්‍රියා සමඟ සැලසුම් කිරීමේ ROI',
+            title: 'React සමඟ සැලසුම් කිරීමේ ROI',
             description: 'Linton Ye',
             url: 'https://www.youtube.com/watch?v=7cPWmID5XAk&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=10',
             image: {
@@ -2528,7 +2528,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-15',
-            title: 'React 18 සමඟ ප්‍රවේශ විය හැකි සංරචක ගොඩනැගීම',
+            title: 'React 18 සමඟ ප්‍රවේශ විය හැකි components ගොඩනැගීම',
             description: 'Diego Haz',
             url: 'https://www.youtube.com/watch?v=dcm8fjBfro8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=16',
             image: {
@@ -2537,7 +2537,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-16',
-            title: 'React සමඟ ප්‍රවේශ විය හැකි ජපන් ආකෘති සංරචක',
+            title: 'React සමඟ ප්‍රවේශ විය හැකි ජපන් ආකෘති components',
             description: 'Tafu Nakazaki',
             url: 'https://www.youtube.com/watch?v=S4a0QlsH0pU&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=17',
             image: {
