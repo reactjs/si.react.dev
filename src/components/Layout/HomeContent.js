@@ -155,7 +155,7 @@ export function HomeContent() {
 
         <Section background="left-card">
           <Center>
-            <Header>components වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
+            <Header>Components වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
             <Para>
               React ඔබට components ලෙස හැඳින්වෙන තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි.{' '}
               <Code>Thumbnail</Code>, <Code>LikeButton</Code>, හා{' '}
@@ -231,7 +231,7 @@ export function HomeContent() {
         <Section background="right-card">
           <Center>
             <Header>
-              framework එකක් සමඟ <br className="hidden lg:inline" />
+              Framework එකක් සමඟ <br className="hidden lg:inline" />
               full-stack වෙත යන්න
             </Header>
             <Para>
@@ -1045,7 +1045,7 @@ function Example3() {
     },
     {
       id: 'vids-4',
-      title: 'සේවාදායක components හඳුන්වා දෙමින්',
+      title: 'Server components හඳුන්වා දෙමින්',
       description: 'Dan Abramov and Lauren Tan (2020)',
       image: '/images/home/videos/rsc.jpg',
       url: 'https://www.youtube.com/watch?v=TQQPAU21ZUw',
