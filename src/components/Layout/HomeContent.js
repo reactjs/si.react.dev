@@ -131,7 +131,7 @@ export function HomeContent() {
             React
           </h1>
           <p className="text-4xl font-display max-w-lg md:max-w-full py-1 text-center text-secondary dark:text-primary-dark leading-snug self-center">
-            The library for web and native user interfaces
+            වෙබ් සහ ස්වදේශීය පරිශීලක අතුරුමුහුණත් සඳහා පුස්තකාලය
           </p>
           <div className="mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row">
             <ButtonLink
@@ -139,29 +139,28 @@ export function HomeContent() {
               type="primary"
               size="lg"
               className="w-full sm:w-auto justify-center"
-              label="Learn React">
-              Learn React
+              label="React ඉගෙන ගන්න">
+              React ඉගෙන ගන්න
             </ButtonLink>
             <ButtonLink
               href={'/reference/react'}
               type="secondary"
               size="lg"
               className="w-full sm:w-auto justify-center"
-              label="API Reference">
-              API Reference
+              label="API යොමුව">
+              API යොමුව
             </ButtonLink>
           </div>
         </div>
 
         <Section background="left-card">
           <Center>
-            <Header>Create user interfaces from components</Header>
+            <Header>Components වලින් පරිශීලක අතුරුමුහුණත් සාදන්න</Header>
             <Para>
-              React lets you build user interfaces out of individual pieces
-              called components. Create your own React components like{' '}
-              <Code>Thumbnail</Code>, <Code>LikeButton</Code>, and{' '}
-              <Code>Video</Code>. Then combine them into entire screens, pages,
-              and apps.
+              React ඔබට components ලෙස හැඳින්වෙන තනි කොටස් වලින් පරිශීලක අතුරුමුහුණත් තැනීමට ඉඩ දෙයි.{' '}
+              <Code>Thumbnail</Code>, <Code>LikeButton</Code>, හා{' '}
+              <Code>Video</Code>{' '} වැනි ඔබේම React components සාදන්න.
+              ඉන්පසු ඒවා සම්පූර්ණ තිර, පිටු සහ යෙදුම් වලට ඒකාබද්ධ කරන්න.
             </Para>
           </Center>
           <FullBleed>
@@ -169,22 +168,21 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              Whether you work on your own or with thousands of other
-              developers, using React feels the same. It is designed to let you
-              seamlessly combine components written by independent people,
-              teams, and organizations.
+              ඔබ තනිවම හෝ වෙනත් දහස් ගණනක් සංවර්ධකයින් සමඟ වැඩ කළත්,
+              React භාවිතා කිරීම එකලෙසම දැනේ. එය ඔබට ස්වාධීන පුද්ගලයන් කණ්ඩායම්,
+              සහ සංවිධාන විසින් ලියන ලද components බාධාවකින් තොරව ඒකාබද්ධ කරන්නට, ඉඩ දීමට සැලසුම් කර ඇත.
             </Para>
           </Center>
         </Section>
 
         <Section background="right-card">
           <Center>
-            <Header>Write components with code and markup</Header>
+            <Header>කේත සහ markup සමඟ components ලියන්න</Header>
             <Para>
-              React components are JavaScript functions. Want to show some
-              content conditionally? Use an <Code>if</Code> statement.
-              Displaying a list? Try array <Code>map()</Code>. Learning React is
-              learning programming.
+              React components JavaScript functions වේ. යම් අන්තර්ගතයක් කොන්දේසි
+              සහිතව පෙන්වීමට අවශ්‍යද? <Code>if</Code> ප්‍රකාශයක් භාවිතා කරන්න.
+              ලැයිස්තුවක් පෙන්වනවාද? array <Code>map()</Code> උත්සාහ කරන්න.
+              React ඉගෙනීම යනු ක්‍රමලේඛනය ඉගෙනීමයි.
             </Para>
           </Center>
           <FullBleed>
@@ -192,22 +190,22 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              This markup syntax is called JSX. It is a JavaScript syntax
-              extension popularized by React. Putting JSX markup close to
-              related rendering logic makes React components easy to create,
-              maintain, and delete.
+              මෙම markup වාක්‍ය ඛණ්ඩය JSX ලෙස හැඳින්වේ.
+              එය React මගින් ප්‍රචලිත කරන ලද JavaScript syntax දිගුවකි.
+              JSX සලකුණු කිරීම අදාළ විදැහුම් තර්කයට ආසන්නව තැබීමෙන්
+              React components සෑදීම, නඩත්තු කිරීම සහ මකා දැමීම පහසු කරයි.
             </Para>
           </Center>
         </Section>
 
         <Section background="left-card">
           <Center>
-            <Header>Add interactivity wherever you need it</Header>
+            <Header>ඔබට අවශ්‍ය ඕනෑම තැනක අන්තර්ක්‍රියාකාරීත්වය එක් කරන්න</Header>
             <Para>
-              React components receive data and return what should appear on the
-              screen. You can pass them new data in response to an interaction,
-              like when the user types into an input. React will then update the
-              screen to match the new data.
+              React components දත්ත ලබා ගන්නා අතර තිරයේ දිස්විය යුතු දේ
+              ආපසු ලබා දෙයි. පරිශීලකයා ආදානයකට ටයිප් කරන විට වැනි
+              අන්තර්ක්‍රියාවකට ප්‍රතිචාර වශයෙන් ඔබට ඔවුන්ට නව දත්ත ලබා දිය හැක.
+              React පසුව නව දත්තවලට ගැළපෙන පරිදි තිරය update කරනු ඇත.
             </Para>
           </Center>
           <FullBleed>
@@ -215,16 +213,16 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              You don’t have to build your whole page in React. Add React to
-              your existing HTML page, and render interactive React components
-              anywhere on it.
+              ඔබට ඔබේ මුළු පිටුවම React තුළ ගොඩනගා ගැනීමට අවශ්‍ය නැත.
+              ඔබගේ පවතින HTML පිටුවට React එක් කරන්න, 
+              සහ එහි ඕනෑම තැනක අන්තර්ක්‍රියාකාරී React components ලබා දෙන්න.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
                 color="gray"
                 icon="code"
                 href="/learn/add-react-to-an-existing-project">
-                Add React to your page
+                ඔබේ පිටුවට React එක් කරන්න
               </CTA>
             </div>
           </Center>
@@ -233,15 +231,15 @@ export function HomeContent() {
         <Section background="right-card">
           <Center>
             <Header>
-              Go full-stack <br className="hidden lg:inline" />
-              with a framework
+              Framework එකක් සමඟ <br className="hidden lg:inline" />
+              full-stack වෙත යන්න
             </Header>
             <Para>
-              React is a library. It lets you put components together, but it
-              doesn’t prescribe how to do routing and data fetching. To build an
-              entire app with React, we recommend a full-stack React framework
-              like <Link href="https://nextjs.org">Next.js</Link> or{' '}
-              <Link href="https://remix.run">Remix</Link>.
+              React යනු පුස්තකාලයකි. එය ඔබට components එකට තැබීමට ඉඩ සලසයි, නමුත්
+              එය routing සහ දත්ත ලබා ගැනීම සිදු කරන ආකාරය නියම නොකරයි.
+              React සමඟ සම්පූර්ණ යෙදුමක් තැනීමට, අපි නිර්දේශ කරන්නේ, 
+              <Link href="https://nextjs.org">Next.js</Link> හෝ{' '}
+              <Link href="https: //remix.run">Remix</Link> වැනි full-stack React framework වේ.
             </Para>
           </Center>
           <FullBleed>
@@ -249,17 +247,17 @@ export function HomeContent() {
           </FullBleed>
           <Center>
             <Para>
-              React is also an architecture. Frameworks that implement it let
-              you fetch data in asynchronous components that run on the server
-              or even during the build. Read data from a file or a database, and
-              pass it down to your interactive components.
+              React ද වාස්තු විද්‍යාවකි. එය ක්‍රියාත්මක කරන frameworks මඟින් server මත හෝ
+              ගොඩනැගීමේදී ක්‍රියාත්මක වන අසමමුහුර්ත components-වල දත්ත ලබා ගැනීමට පවා
+              ඔබට ඉඩ සලසයි. ගොනුවකින් හෝ database මඟින් දත්ත කියවා එය ඔබගේ
+              අන්තර්ක්‍රියාකාරී components වෙත ලබා දෙන්න.
             </Para>
             <div className="flex justify-start w-full lg:justify-center">
               <CTA
                 color="gray"
                 icon="framework"
                 href="/learn/start-a-new-react-project">
-                Get started with a framework
+                Framework එකක් සමඟ ආරම්භ කරන්න
               </CTA>
             </div>
           </Center>
@@ -267,12 +265,12 @@ export function HomeContent() {
         <Section background="left-card">
           <div className="mx-auto flex flex-col w-full">
             <div className="mx-auto max-w-4xl lg:text-center items-center px-5 flex flex-col">
-              <Header>Use the best from every platform</Header>
+              <Header>සෑම වේදිකාවකින්ම හොඳම දේ භාවිතා කරන්න</Header>
               <Para>
-                People love web and native apps for different reasons. React
-                lets you build both web apps and native apps using the same
-                skills. It leans upon each platform’s unique strengths to let
-                your interfaces feel just right on every platform.
+                විවිධ හේතු නිසා මිනිසුන් වෙබ් සහ ස්වදේශීය යෙදුම් වලට ප්‍රිය කරයි. React
+                ඔබට එකම කුසලතා භාවිතා කරමින් වෙබ් යෙදුම් සහ ස්වදේශීය යෙදුම් දෙකම
+                ගොඩනැගීමට ඉඩ දෙයි. එය ඔබගේ අතුරුමුහුණත් සෑම වේදිකාවකම හරියටම
+                දැනෙන්නට ඉඩ සලසා දීම සඳහා එක් එක් වේදිකාවේ අද්විතීය ශක්තීන් මත රඳා පවතී.
               </Para>
             </div>
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row mt-16 mb-20 lg:mb-28 px-5 gap-20 lg:gap-5">
@@ -286,15 +284,15 @@ export function HomeContent() {
                     <div className="bg-wash relative h-14 w-full" />
                     <div className="relative flex items-start justify-center flex-col flex-1 pb-16 pt-5 gap-3 px-5 lg:px-10 lg:pt-8">
                       <h4 className="leading-tight text-primary font-semibold text-3xl lg:text-4xl">
-                        Stay true to the web
+                        වෙබයට සත්‍යව සිටින්න
                       </h4>
                       <p className="lg:text-xl leading-normal text-secondary">
-                        People expect web app pages to load fast. On the server,
-                        React lets you start streaming HTML while you’re still
-                        fetching data, progressively filling in the remaining
-                        content before any JavaScript code loads. On the client,
-                        React can use standard web APIs to keep your UI
-                        responsive even in the middle of rendering.
+                        වෙබ් යෙදුම් පිටු වේගයෙන් පූරණය වනු ඇතැයි මිනිසුන් අපේක්ෂා කරති.
+                        Server තුල, React ඔබ තවමත් දත්ත ලබා ගනිමින් සිටින අතරතුර HTML
+                        ප්‍රවාහය ආරම්භ කිරීමට ඉඩ සලසයි, ඕනෑම JavaScript කේතයක් පූරණය
+                        වීමට පෙර ඉතිරි අන්තර්ගතය ක්‍රමානුකූලව පුරවයි. Client මත,
+                        විදැහුම්කරණය මධ්‍යයේ පවා ඔබේ UI ප්‍රතිචාරාත්මකව තබා ගැනීමට React
+                        හට සම්මත වෙබ් API භාවිත කළ හැක.
                       </p>
                     </div>
                   </div>
@@ -372,21 +370,21 @@ export function HomeContent() {
                       </div>
                       <div className="flex flex-col items-start justify-center pt-0 gap-3 px-2.5 lg:pt-8 lg:px-8">
                         <h4 className="leading-tight text-primary dark:text-primary-dark font-semibold text-3xl lg:text-4xl">
-                          Go truly native
+                          සැබවින්ම ස්වදේශික වන්න
                         </h4>
                         <p className="h-full lg:text-xl text-secondary dark:text-secondary-dark leading-normal">
-                          People expect native apps to look and feel like their
-                          platform.{' '}
+                          ස්වදේශීය යෙදුම් ඔවුන්ගේ වේදිකාව මෙන් පෙනෙනු ඇතැයි මිනිසුන්
+                          අපේක්ෂා කරයි.{' '}
                           <Link href="https://reactnative.dev">
                             React Native
                           </Link>{' '}
-                          and{' '}
+                          සහ{' '}
                           <Link href="https://github.com/expo/expo">Expo</Link>{' '}
-                          let you build apps in React for Android, iOS, and
-                          more. They look and feel native because their UIs{' '}
-                          <i>are</i> truly native. It’s not a web view—your
-                          React components render real Android and iOS views
-                          provided by the platform.
+                          ඔබට Android, iOS සහ තවත් දේ සඳහා React හි යෙදුම්
+                          තැනීමට ඉඩ දෙයි. ඔවුන්ගේ UI{' '} සැබවින්ම ස්වදේශික
+                          බැවින් ඔවුන් ස්වදේශික ලෙස පෙනේ. එය web view
+                          නොවේ—ඔබේ React components වේදිකාව මඟින් සපයන ලද
+                          සැබෑ Android සහ iOS දසුන් ලබා දෙයි.
                         </p>
                       </div>
                     </div>
@@ -396,14 +394,14 @@ export function HomeContent() {
             </div>
             <div className="px-5 lg:px-0 max-w-4xl mx-auto lg:text-center text-secondary dark:text-secondary-dark">
               <Para>
-                With React, you can be a web <i>and</i> a native developer. Your
-                team can ship to many platforms without sacrificing the user
-                experience. Your organization can bridge the platform silos, and
-                form teams that own entire features end-to-end.
+                React සමඟින්, ඔබට වෙබ් <i>සහ</i> ස්වදේශීය සංවර්ධකයෙකු විය හැක. පරිශීලක
+                අත්දැකීම කැප නොකර ඔබේ කණ්ඩායමට බොහෝ වේදිකාවලට නැව්ගත කළ හැක.
+                ඔබේ සංවිධානයට වේදිකා silos පාලම් කළ හැකි අතර, අවසානයේ සිට අවසානය
+                දක්වා සම්පූර්ණ විශේෂාංග හිමි කණ්ඩායම් සාදන්න.
               </Para>
               <div className="flex justify-start w-full lg:justify-center">
                 <CTA color="gray" icon="native" href="https://reactnative.dev/">
-                  Build for native platforms
+                  දේශීය වේදිකා සඳහා ගොඩනඟන්න
                 </CTA>
               </div>
             </div>
@@ -414,23 +412,23 @@ export function HomeContent() {
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row px-5">
             <div className="max-w-3xl lg:max-w-7xl gap-5 flex flex-col lg:flex-row lg:px-5">
               <div className="w-full lg:w-6/12 max-w-3xl flex flex-col items-start justify-start lg:pl-5 lg:pr-10">
-                <Header>Upgrade when the future is ready</Header>
+                <Header>අනාගතය සූදානම් වන විට upgrade කරන්න</Header>
                 <Para>
-                  React approaches changes with care. Every React commit is
-                  tested on business-critical surfaces with over a billion
-                  users. Over 100,000 React components at Meta help validate
-                  every migration strategy.
+                  React ප්‍රවේශයන් ප්‍රවේශමෙන් වෙනස් වේ. සෑම React කැපවීමක්ම
+                  බිලියනයකට අධික පරිශීලකයින් සිටින ව්‍යාපාරික-විවේචනාත්මක පෘෂ්ඨයන්
+                  මත පරීක්ෂා කරනු ලැබේ. Meta හි 100,000 කට අධික React components
+                  සෑම සංක්‍රමණ උපායමාර්ගයක්ම වලංගු කිරීමට උදවු කරයි.
                 </Para>
                 <div className="order-last pt-5">
                   <Para>
-                    The React team is always researching how to improve React.
-                    Some research takes years to pay off. React has a high bar
-                    for taking a research idea into production. Only proven
-                    approaches become a part of React.
+                    React කණ්ඩායම සැමවිටම React වැඩිදියුණු කරන්නේ කෙසේදැයි
+                    පර්යේෂණ කරයි. සමහර පර්යේෂණවල විපාක ලැබීමට වසර ගණනාවක් ගත වේ.
+                    නිෂ්පාදනයට පර්යේෂණ අදහසක් ගැනීම සඳහා React හට ඉහළ තීරුවක් ඇත.
+                    React හි කොටසක් බවට පත්වන්නේ ඔප්පු කළ ප්‍රවේශයන් පමණි.
                   </Para>
                   <div className="hidden lg:flex justify-start w-full">
                     <CTA color="gray" icon="news" href="/blog">
-                      Read more React news
+                      වැඩිදුර කියවන්න React පුවත්
                     </CTA>
                   </div>
                 </div>
@@ -438,7 +436,7 @@ export function HomeContent() {
               <div className="w-full lg:w-6/12">
                 <p className="uppercase tracking-wide font-bold text-sm text-tertiary dark:text-tertiary-dark flex flex-row gap-2 items-center mt-5 lg:-mt-2 w-full">
                   <IconChevron />
-                  Latest React News
+                  නවතම React පුවත්
                 </p>
                 <div className="flex-col sm:flex-row flex-wrap flex gap-5 text-left my-5">
                   <div className="flex-1 min-w-[40%]">
@@ -456,7 +454,7 @@ export function HomeContent() {
                 </div>
                 <div className="flex lg:hidden justify-start w-full">
                   <CTA color="gray" icon="news" href="/blog">
-                    Read more React news
+                    වැඩිදුර කියවන්න React පුවත්
                   </CTA>
                 </div>
               </div>
@@ -469,13 +467,13 @@ export function HomeContent() {
             <div className="mx-auto flex flex-col max-w-4xl">
               <Center>
                 <Header>
-                  Join a community <br className="hidden lg:inline" />
-                  of millions
+                  මිලියන ගණනක <br className="hidden lg:inline" />
+                  ප්‍රජාවකට සම්බන්ධ වන්න
                 </Header>
                 <Para>
-                  You’re not alone. Two million developers from all over the
-                  world visit the React docs every month. React is something
-                  that people and teams can agree on.
+                 ඔබ තනිවම නොවේ. ලොව පුරා සිටින සංවර්ධකයින් මිලියන
+                 දෙකක් සෑම මසකම React docs වෙත පැමිණේ. React යනු
+                 පුද්ගලයන්ට සහ කණ්ඩායම්වලට එකඟ විය හැකි දෙයකි.
                 </Para>
               </Center>
             </div>
@@ -483,13 +481,13 @@ export function HomeContent() {
             <div className="mx-auto flex flex-col max-w-4xl">
               <Center>
                 <Para>
-                  This is why React is more than a library, an architecture, or
-                  even an ecosystem. React is a community. It’s a place where
-                  you can ask for help, find opportunities, and meet new
-                  friends. You will meet both developers and designers,
-                  beginners and experts, researchers and artists, teachers and
-                  students. Our backgrounds may be very different, but React
-                  lets us all create user interfaces together.
+                  React යනු පුස්තකාලයකට, ගෘහ නිර්මාණ ශිල්පයකට හෝ පරිසර පද්ධතියකට
+                  වඩා වැඩි යමක් වන්නේ මේ නිසාය. React යනු ප්‍රජාවකි. එය ඔබට උපකාර
+                  ඉල්ලා සිටීමට, අවස්ථා සොයා ගැනීමට සහ නව මිතුරන් හමුවීමට හැකි ස්ථානයකි.
+                  ඔබ සංවර්ධකයින් සහ නිර්මාණකරුවන්, ආරම්භකයින් සහ විශේෂඥයින්,
+                  පර්යේෂකයන් සහ කලාකරුවන්, ගුරුවරුන් සහ සිසුන් යන දෙදෙනාම හමුවනු
+                  ඇත. අපගේ පසුබිම් බොහෝ වෙනස් විය හැක, නමුත් React අප සියල්ලන්ටම එක්ව
+                  පරිශීලක අතුරුමුහුණත් නිර්මාණය කිරීමට ඉඩ සලසයි.
                 </Para>
               </Center>
             </div>
@@ -498,15 +496,15 @@ export function HomeContent() {
           <div className="mt-20 px-5 lg:px-0 mb-6 max-w-4xl text-center text-opacity-80">
             <Logo className="text-link dark:text-link-dark w-24 lg:w-28 mb-10 lg:mb-8 mt-12 h-auto mx-auto self-start" />
             <Header>
-              Welcome to the <br className="" />
-              React community
+              React ප්‍රජාව වෙත <br className="" />
+              සාදරයෙන් පිළිගනිමු
             </Header>
             <ButtonLink
               href={'/learn'}
               type="primary"
               size="lg"
-              label="Take the Tutorial">
-              Get Started
+              label="Tutorial එක ගන්න">
+              ආරම්භ කරන්න
             </ButtonLink>
           </div>
         </Section>
@@ -658,35 +656,35 @@ const reactConf2019Cover = '/images/home/conf2019/cover.svg';
 const communityImages = [
   {
     src: '/images/home/community/react_conf_fun.webp',
-    alt: 'People singing karaoke at React Conf',
+    alt: 'React Conf හි කැරෝකී ගායනා කරන මිනිසුන්',
   },
   {
     src: '/images/home/community/react_india_sunil.webp',
-    alt: 'Sunil Pai speaking at React India',
+    alt: 'සුනිල් පායි React India හිදී අදහස් දක්වමින්',
   },
   {
     src: '/images/home/community/react_conf_hallway.webp',
-    alt: 'A hallway conversation between two people at React Conf',
+    alt: 'React Conf හි පුද්ගලයන් දෙදෙනෙකු අතර ශාලාවේ සංවාදයක්',
   },
   {
     src: '/images/home/community/react_india_hallway.webp',
-    alt: 'A hallway conversation at React India',
+    alt: 'React India හි ශාලාවේ සංවාදයක්',
   },
   {
     src: '/images/home/community/react_conf_elizabet.webp',
-    alt: 'Elizabet Oliveira speaking at React Conf',
+    alt: 'Elizabet Oliveira React Conf හි කතා කරයි',
   },
   {
     src: '/images/home/community/react_india_selfie.webp',
-    alt: 'People taking a group selfie at React India',
+    alt: 'React India හි සමූහ සෙල්ෆියක් ගන්නා පුද්ගලයින්',
   },
   {
     src: '/images/home/community/react_conf_nat.webp',
-    alt: 'Nat Alison speaking at React Conf',
+    alt: 'Nat Alison React conf හි කතා කරයි',
   },
   {
     src: '/images/home/community/react_india_team.webp',
-    alt: 'Organizers greeting attendees at React India',
+    alt: 'React India හි සහභාගිවන්නන්ට ආචාර කරන සංවිධායකයින්',
   },
 ];
 
@@ -922,8 +920,8 @@ function Example1() {
           <Video
             video={{
               id: 'ex1-0',
-              title: 'My video',
-              description: 'Video description',
+              title: 'මගේ වීඩියෝව',
+              description: 'වීඩියෝ විස්තරය',
               image: 'blue',
               url: null,
             }}
@@ -946,20 +944,20 @@ function Example2() {
   const videos = [
     {
       id: 'ex2-0',
-      title: 'First video',
-      description: 'Video description',
+      title: 'පළමු වීඩියෝව',
+      description: 'වීඩියෝ විස්තරය',
       image: 'blue',
     },
     {
       id: 'ex2-1',
-      title: 'Second video',
-      description: 'Video description',
+      title: 'දෙවන වීඩියෝව',
+      description: 'වීඩියෝ විස්තරය',
       image: 'red',
     },
     {
       id: 'ex2-2',
-      title: 'Third video',
-      description: 'Video description',
+      title: 'තුන්වන වීඩියෝව',
+      description: 'වීඩියෝ විස්තරය',
       image: 'green',
     },
   ];
@@ -1019,35 +1017,35 @@ function Example3() {
   const videos = [
     {
       id: 'vids-0',
-      title: 'React: The Documentary',
-      description: 'The origin story of React',
+      title: 'React: වාර්තා චිත්රපටය',
+      description: 'React හි මූලාරම්භය කතාව',
       image: '/images/home/videos/documentary.webp',
       url: 'https://www.youtube.com/watch?v=8pDqJVdNa44',
     },
     {
       id: 'vids-1',
-      title: 'Rethinking Best Practices',
+      title: 'හොඳම භාවිතයන් ගැන නැවත සිතා බැලීම',
       description: 'Pete Hunt (2013)',
       image: '/images/home/videos/rethinking.jpg',
       url: 'https://www.youtube.com/watch?v=x7cQ3mrcKaY',
     },
     {
       id: 'vids-2',
-      title: 'Introducing React Native',
+      title: 'React Native හඳුන්වා දෙමින්',
       description: 'Tom Occhino (2015)',
       image: '/images/home/videos/rn.jpg',
       url: 'https://www.youtube.com/watch?v=KVZ-P-ZI6W4',
     },
     {
       id: 'vids-3',
-      title: 'Introducing React Hooks',
+      title: 'React කොකු හඳුන්වා දෙමින්',
       description: 'Sophie Alpert and Dan Abramov (2018)',
       image: '/images/home/videos/hooks.jpg',
       url: 'https://www.youtube.com/watch?v=V-QO-KO90iQ',
     },
     {
       id: 'vids-4',
-      title: 'Introducing Server Components',
+      title: 'Server components හඳුන්වා දෙමින්',
       description: 'Dan Abramov and Lauren Tan (2020)',
       image: '/images/home/videos/rsc.jpg',
       url: 'https://www.youtube.com/watch?v=TQQPAU21ZUw',
@@ -2387,8 +2385,8 @@ function fetchTalks(confId) {
         resolve([
           {
             id: 'conf-2021-0',
-            title: 'React 18 Keynote',
-            description: 'The React Team',
+            title: 'React 18 ප්රධාන දේශනය',
+            description: 'React කණ්ඩායම',
             url: 'https://www.youtube.com/watch?v=FZ0cG47msEk&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=1',
             image: {
               speakers: [
@@ -2401,7 +2399,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-1',
-            title: 'React 18 for App Developers',
+            title: 'යෙදුම් සංවර්ධකයින් සඳහා React 18',
             description: 'Shruti Kapoor',
             url: 'https://www.youtube.com/watch?v=ytudH8je5ko&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=2',
             image: {
@@ -2410,7 +2408,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-2',
-            title: 'Streaming Server Rendering with Suspense',
+            title: 'Suspense සමඟ Streaming Server Rendering',
             description: 'Shaundai Person',
             url: 'https://www.youtube.com/watch?v=pj5N-Khihgc&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=3',
             image: {
@@ -2419,7 +2417,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-3',
-            title: 'The First React Working Group',
+            title: 'පළමු React ක්රියාකාරී කණ්ඩායම',
             description: 'Aakansha Doshi',
             url: 'https://www.youtube.com/watch?v=qn7gRClrC9U&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=4',
             image: {
@@ -2428,7 +2426,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-4',
-            title: 'React Developer Tooling',
+            title: 'React සංවර්ධක මෙවලම්',
             description: 'Brian Vaughn',
             url: 'https://www.youtube.com/watch?v=oxDfrke8rZg&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=5',
             image: {
@@ -2437,7 +2435,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-5',
-            title: 'React without memo',
+            title: 'මතක සටහන් නොමැතිව React',
             description: 'Xuan Huang (黄玄)',
             url: 'https://www.youtube.com/watch?v=lGEMwh32soc&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=6',
             image: {
@@ -2446,7 +2444,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-6',
-            title: 'React Docs Keynote',
+            title: 'React Docs ප්රධාන දේශනය',
             description: 'Rachel Nabors',
             url: 'https://www.youtube.com/watch?v=mneDaMYOKP8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=7',
             image: {
@@ -2455,7 +2453,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-7',
-            title: 'Things I Learnt from the New React Docs',
+            title: 'නව React Docs සමඟ මා ඉගෙන ගත් දේවල්',
             description: "Debbie O'Brien",
             url: 'https://www.youtube.com/watch?v=-7odLW_hG7s&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=8',
             image: {
@@ -2464,7 +2462,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-8',
-            title: 'Learning in the Browser',
+            title: 'බ්‍රවුසරයේ ඉගෙනීම',
             description: 'Sarah Rainsberger',
             url: 'https://www.youtube.com/watch?v=5X-WEQflCL0&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=9',
             image: {
@@ -2473,7 +2471,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-9',
-            title: 'The ROI of Designing with React',
+            title: 'React සමඟ සැලසුම් කිරීමේ ROI',
             description: 'Linton Ye',
             url: 'https://www.youtube.com/watch?v=7cPWmID5XAk&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=10',
             image: {
@@ -2482,7 +2480,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-10',
-            title: 'Interactive Playgrounds with React',
+            title: 'React සමඟ අන්තර්ක්‍රියාකාරී ක්‍රීඩා පිටි',
             description: 'Delba de Oliveira',
             url: 'https://www.youtube.com/watch?v=zL8cz2W0z34&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=11',
             image: {
@@ -2491,7 +2489,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-11',
-            title: 'Re-introducing Relay',
+            title: 'Relay නැවත හඳුන්වා දීම',
             description: 'Robert Balicki',
             url: 'https://www.youtube.com/watch?v=lhVGdErZuN4&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=12',
             image: {
@@ -2512,7 +2510,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-13',
-            title: 'On-device Machine Learning for React Native',
+            title: 'React Native සඳහා උපාංගය මත යන්ත්‍ර ඉගෙනීම',
             description: 'Roman Rädle',
             url: 'https://www.youtube.com/watch?v=NLj73vrc2I8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=14',
             image: {
@@ -2521,7 +2519,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-14',
-            title: 'React 18 for External Store Libraries',
+            title: 'බාහිර ගබඩා පුස්තකාල සඳහා React 18',
             description: 'Daishi Kato',
             url: 'https://www.youtube.com/watch?v=oPfSC5bQPR8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=15',
             image: {
@@ -2530,7 +2528,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-15',
-            title: 'Building Accessible Components with React 18',
+            title: 'React 18 සමඟ ප්‍රවේශ විය හැකි components ගොඩනැගීම',
             description: 'Diego Haz',
             url: 'https://www.youtube.com/watch?v=dcm8fjBfro8&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=16',
             image: {
@@ -2539,7 +2537,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-16',
-            title: 'Accessible Japanese Form Components with React',
+            title: 'React සමඟ ප්‍රවේශ විය හැකි ජපන් ආකෘති components',
             description: 'Tafu Nakazaki',
             url: 'https://www.youtube.com/watch?v=S4a0QlsH0pU&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=17',
             image: {
@@ -2548,7 +2546,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2021-17',
-            title: 'UI Tools for Artists',
+            title: 'කලාකරුවන් සඳහා UI මෙවලම්',
             description: 'Lyle Troxell',
             url: 'https://www.youtube.com/watch?v=b3l4WxipFsE&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&index=18',
             image: {
@@ -2569,7 +2567,7 @@ function fetchTalks(confId) {
         resolve([
           {
             id: 'conf-2019-0',
-            title: 'Keynote (Part 1)',
+            title: 'ප්රධාන දේශනය (1 කොටස)',
             description: 'Tom Occhino',
             url: 'https://www.youtube.com/watch?v=QnZHO7QvjaM&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh',
             image: {
@@ -2578,7 +2576,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-1',
-            title: 'Keynote (Part 2)',
+            title: 'ප්රධාන දේශනය (2 කොටස)',
             description: 'Yuzhi Zheng',
             url: 'https://www.youtube.com/watch?v=uXEEL9mrkAQ&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=2',
             image: {
@@ -2587,7 +2585,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-2',
-            title: 'Building The New Facebook With React and Relay (Part 1)',
+            title: 'React සහ Relay සමඟින් නව ෆේස්බුක් ගොඩනැගීම (1 කොටස)',
             description: 'Frank Yan',
             url: 'https://www.youtube.com/watch?v=9JZHodNR184&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=3',
             image: {
@@ -2596,7 +2594,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-3',
-            title: 'Building The New Facebook With React and Relay (Part 2)',
+            title: 'React සහ Relay සමඟින් නව ෆේස්බුක් ගොඩනැගීම (2 කොටස)',
             description: 'Ashley Watkins',
             url: 'https://www.youtube.com/watch?v=KT3XKDBZW7M&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=4',
             image: {
@@ -2605,7 +2603,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-4',
-            title: 'How Our Team Is Using React Native to Save The World',
+            title: 'ලෝකය සුරැකීමට අපගේ කණ්ඩායම React Native භාවිතා කරන ආකාරය',
             description: 'Tania Papazafeiropoulou',
             url: 'https://www.youtube.com/watch?v=zVHWugBPGBE&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=5',
             image: {
@@ -2614,8 +2612,8 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-5',
-            title:
-              'Using Hooks and Codegen to Bring the Benefits of GraphQL to REST APIs',
+            title: 
+              'REST API වෙත GraphQL හි ප්‍රතිලාභ ගෙන ඒම සඳහා Hooks සහ Codegen භාවිතා කිරීම',
             description: 'Tejas Kumar',
             url: 'https://www.youtube.com/watch?v=cdsnzfJUqm0&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=6',
             image: {
@@ -2624,7 +2622,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-6',
-            title: 'Building a Custom React Renderer',
+            title: 'අභිරුචි React විදැහුම්කරුවෙකු ගොඩනැගීම',
             description: 'Sophie Alpert',
             url: 'https://www.youtube.com/watch?v=CGpMlWVcHok&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=7',
             image: {
@@ -2633,7 +2631,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-7',
-            title: 'Is React Translated Yet?',
+            title: 'React තවමත් පරිවර්තනය කර තිබේද?',
             description: 'Nat Alison',
             url: 'https://www.youtube.com/watch?v=lLE4Jqaek5k&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=12',
             image: {
@@ -2642,7 +2640,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-8',
-            title: 'Building (And Re-Building) the Airbnb Design System',
+            title: 'Airbnb සැලසුම් පද්ධතිය ගොඩනැගීම (සහ නැවත ගොඩනැගීම).',
             description: 'Maja Wichrowska and Tae Kim',
             url: 'https://www.youtube.com/watch?v=fHQ1WSx41CA&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=13',
             image: {
@@ -2654,7 +2652,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-9',
-            title: 'Accessibility Is a Marathon, Not a Sprint',
+            title: 'ප්‍රවේශ්‍යතාව මැරතන් තරගයක් මිස sprint එකක් නොවේ',
             description: 'Brittany Feenstra',
             url: 'https://www.youtube.com/watch?v=ONSD-t4gBb8&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=14',
             image: {
@@ -2663,7 +2661,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-10',
-            title: 'The State of React State in 2019',
+            title: '2019 දී React State තත්ත්වය',
             description: 'Becca Bailey',
             url: 'https://www.youtube.com/watch?v=wUMMUyQtMSg&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=15',
             image: {
@@ -2672,7 +2670,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-11',
-            title: 'Let’s Program Like It’s 1999',
+            title: '1999 වගේ වැඩසටහන් කරමු',
             description: 'Lee Byron',
             url: 'https://www.youtube.com/watch?v=vG8WpLr6y_U&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=16',
             image: {
@@ -2681,7 +2679,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-12',
-            title: 'React Developer Tooling',
+            title: 'React සංවර්ධක මෙවලම්',
             description: 'Brian Vaughn',
             url: 'https://www.youtube.com/watch?v=Mjrfb1r3XEM&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=17',
             image: {
@@ -2690,7 +2688,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-13',
-            title: 'Data Fetching With Suspense In Relay',
+            title: 'Relay තුල Suspense සමඟ දත්ත ලබා ගැනීම',
             description: 'Joe Savona',
             url: 'https://www.youtube.com/watch?v=Tl0S7QkxFE4&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=18',
             image: {
@@ -2699,7 +2697,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-14',
-            title: 'Automatic Visualizations of the Frontend',
+            title: 'ඉදිරිපස ස්වයංක්‍රීය දෘශ්‍යකරණය',
             description: 'Cameron Yick',
             url: 'https://www.youtube.com/watch?v=SbreAPNmZOk&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=19',
             image: {
@@ -2708,7 +2706,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-15',
-            title: 'React Is Fiction',
+            title: 'React ප්‍රබන්ධයකි',
             description: 'Jenn Creighton',
             url: 'https://www.youtube.com/watch?v=kqh4lz2Lkzs&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=20',
             image: {
@@ -2717,7 +2715,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-16',
-            title: 'Progressive Web Animations',
+            title: 'ප්‍රගතිශීලී වෙබ් සජීවිකරණ',
             description: 'Alexandra Holachek',
             url: 'https://www.youtube.com/watch?v=laPsceJ4tTY&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=21',
             image: {
@@ -2727,7 +2725,7 @@ function fetchTalks(confId) {
           {
             id: 'conf-2019-17',
             title:
-              'Creating Games, Animations and Interactions with the Wick Editor',
+              'වික් සංස්කාරකය සමඟ ක්‍රීඩා, සජීවිකරණ සහ අන්තර්ක්‍රියා නිර්මාණය කිරීම',
             description: 'Luca Damasco',
             url: 'https://www.youtube.com/watch?v=laPsceJ4tTY&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=21',
             image: {
@@ -2736,7 +2734,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-18',
-            title: 'Building React-Select',
+            title: 'React-Select ගොඩනඟයි',
             description: 'Jed Watson',
             url: 'https://www.youtube.com/watch?v=yS0jUnmBujE&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=25',
             image: {
@@ -2745,7 +2743,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-19',
-            title: 'Promoting Transparency in Government Spending with React',
+            title: 'React සමඟ රජයේ වියදම්වල විනිවිදභාවය ප්‍රවර්ධනය කිරීම',
             description: 'Lizzie Salita',
             url: 'https://www.youtube.com/watch?v=CVfXICcNfHE&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=26',
             image: {
@@ -2754,7 +2752,7 @@ function fetchTalks(confId) {
           },
           {
             id: 'conf-2019-20',
-            title: 'Wonder-driven Development: Using React to Make a Spaceship',
+            title: 'ආශ්චර්යමත් සංවර්ධනය: අභ්‍යවකාශ යානයක් සෑදීමට React භාවිතා කිරීම',
             description: 'Alex Anderson',
             url: 'https://www.youtube.com/watch?v=aV0uOPWHKt4&list=PLPxbbTqCLbGHPxZpw4xj_Wwg8-fdNxJRh&index=27',
             image: {
