@@ -1,29 +1,29 @@
 ---
-title: Quick Start
+title: ඉක්මන් ආරම්භය
 ---
 
 <Intro>
 
-Welcome to the React documentation! This page will give you an introduction to the 80% of React concepts that you will use on a daily basis.
+React ලියකියවිලි වෙත සාදරයෙන් පිළිගනිමු! මෙම පිටුව මඟින් ඔබ දිනපතා භාවිතා කරන React සංකල්පවලින් 80% ක් පිළිබඳ හැඳින්වීමක් ලබා දෙනු ඇත.
 
 </Intro>
 
 <YouWillLearn>
 
-- How to create and nest components
-- How to add markup and styles
-- How to display data
-- How to render conditions and lists
-- How to respond to events and update the screen
-- How to share data between components
+- components සෑදීම සහ වෙනත් components සමග අන්තර්ගත කරන්නේ කෙසේ​ද
+- සලකුණු සහ මෝස්තර එකතු කරන්නේ කෙසේද
+- දත්ත පෙන්වන්නේ කෙසේද
+- කොන්දේසි සහ ලැයිස්තු විදහාපාන්නේ කෙසේද
+- සිදුවීම් වලට ප්‍රතිචාර දක්වන්නේ කෙසේද සහ තිරය යාවත්කාලීන කරන්නේ කෙසේද
+- components අතර දත්ත බෙදා ගන්නේ කෙසේද
 
 </YouWillLearn>
 
 ## Creating and nesting components {/*components*/}
 
-React apps are made out of *components*. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.
+React යෙදුම් *components* වලින් සාදා ඇත. components  යනු පරිශීලක අතුරුමුහුනත් කොටසක් වන අතර එයටම ආවේනික වූ නියමයක් සහ පෙනුමක් ඇත . component එක​ක් බොත්තමක් වැනි කුඩාදෙයක් හෝ සම්පූර්ණ පිටුවක් වැනි විශාල දෙයක්ද විය හැකිය.
 
-React components are JavaScript functions that return markup:
+React components යනු markup ලබාදෙ​න Javascript functions ​වේ
 
 ```js
 function MyButton() {
@@ -33,7 +33,7 @@ function MyButton() {
 }
 ```
 
-Now that you've declared `MyButton`, you can nest it into another component:
+දැන් ඔබ 'MyButton' සා​දා ඇති බැවින්, ඔබට එය වෙනත් component එකක​ට අන්තර්ගත ක​ල හැක:
 
 ```js {5}
 export default function MyApp() {
@@ -46,9 +46,9 @@ export default function MyApp() {
 }
 ```
 
-Notice that `<MyButton />` starts with a capital letter. That's how you know it's a React component. React component names must always start with a capital letter, while HTML tags must be lowercase.
+`<MyButton />` ආරම්භ වන්නේ ලොකු අකුරකින් බව සලකන්න. එය React component එකක් බව ඔබ දන්නේ එලෙසයි. React component එකක් සෑම විටම ලොකු අකුරකින් ආරම්භ විය යුතු අතර HTML ටැග්​ස් කුඩා අකුරු විය යුතුය.
 
-Have a look at the result:
+මේ ප්‍රතිපලය දෙස බලන්​න:
 
 <Sandpack>
 
@@ -73,13 +73,14 @@ export default function MyApp() {
 
 </Sandpack>
 
-The `export default` keywords specify the main component in the file. If you're not familiar with some piece of JavaScript syntax, [MDN](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) and [javascript.info](https://javascript.info/import-export) have great references.
+`export default` යන වචනය file එකේ ප්‍රධා​න component එක නිර්වචනය කරයි. JavaScript syntax වල යම් කොටසක් ඔබට හුරු නැතිනම්, [MDN](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export) ස​හ [javascript.info](https://javascript.info/import-export) යන වෙබ් අඩවිවල විශිෂ්ට හැදින්වීම් ඇත.
 
 ## Writing markup with JSX {/*writing-markup-with-jsx*/}
 
-The markup syntax you've seen above is called *JSX*. It is optional, but most React projects use JSX for its convenience. All of the [tools we recommend for local development](/learn/installation) support JSX out of the box.
+ඔබ ඉහතින් දකින ලද markup syntax  ඛණ්ඩය *JSX* ලෙස හැඳින්වේ. එය අත්‍යවශ්‍ය නොවේ, නමුත් බොහෝ React projects ඒවාගේ පහසුව සඳහා JSX භාවිතා කරයි. [Local development සදහා අප නිර්දේශ කරනා සියලුම මෙවලම්](/learn/installation) JSX සදහා ක්ෂණිකව​ම සහය දක්වයි.
 
-JSX is stricter than HTML. You have to close tags like `<br />`. Your component also can't return multiple JSX tags. You have to wrap them into a shared parent, like a `<div>...</div>` or an empty `<>...</>` wrapper:
+JSX  HTML වලට වඩා දැඩියි. `<br />` වැනි ටැග් ඔබ විසින් අනිවාර්යෙන් වසා දැමිය යුතුය. ඔබේ component එකට JSX tags එකකට වඩා return කල නොහැකිය. ඔබ ඒවා පොදුව බෙදාගත් මූලයක් තුලට අන්තර්ගත කල යුතුය, `<div>...</div>` මෙලෙ​ස ​හෝ 
+හි​ස් `<>...</>` වැස්මක් තුල​ට:
 
 ```js {3,6}
 function AboutPage() {
@@ -92,7 +93,7 @@ function AboutPage() {
 }
 ```
 
-If you have a lot of HTML to port to JSX, you can use an [online converter.](https://transform.tools/html-to-jsx)
+ඔබට HTML කේත විශාල ප්‍රමාණයක් JSX ලෙස සැකසීමට අවශ්‍යයි නම්, ඔබට [online converter](https://transform.tools/html-to-jsx) එකක් භාවිතා කල හැකි​ය.
 
 ## Adding styles {/*adding-styles*/}
 
