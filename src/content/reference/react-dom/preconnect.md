@@ -1,13 +1,6 @@
 ---
 title: preconnect
-canary: true
 ---
-
-<Canary>
-
-The `preconnect` function is currently only available in React's Canary and experimental channels. Learn more about [React's release channels here](/community/versioning-policy#all-release-channels).
-
-</Canary>
 
 <Intro>
 
@@ -41,7 +34,7 @@ function AppRoot() {
 
 [See more examples below.](#usage)
 
-The `preconnect` function provides the browser with a hint that it should open a connection to the given server. If the browser chooses to do so, this can speed up the loading of resources from that server. 
+The `preconnect` function provides the browser with a hint that it should open a connection to the given server. If the browser chooses to do so, this can speed up the loading of resources from that server.
 
 #### Parameters {/*parameters*/}
 
