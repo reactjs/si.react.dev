@@ -1,3 +1,10 @@
+/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 /*
  * Copyright (c) Facebook, Inc. and its affiliates.
  */
@@ -53,7 +60,7 @@ const MyDocument = () => {
                         document.documentElement.classList.add('uwu');
                         if (!logShown) {
                           console.log('uwu mode! turn off with ?uwu=0');
-                          console.log('logo credit to @sawaratsuki1004 via https://github.com/SAWARATSUKI/ServiceLogos');
+                          console.log('logo credit to @sawaratsuki1004 via https://github.com/SAWARATSUKI/KawaiiLogos');
                           logShown = true;
                         }
                       } else {
@@ -87,7 +94,6 @@ const MyDocument = () => {
                     }
                   }
                   const uwuQueryParam = checkQueryParam();
-                  console.log('uwuQueryParam', uwuQueryParam);
                   if (uwuQueryParam != null) {
                     setUwu(uwuQueryParam);
                   } else if (checkLocalStorage()) {
